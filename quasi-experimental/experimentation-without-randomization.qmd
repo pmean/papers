@@ -19,9 +19,9 @@ Randomization is unpopular. People who provide dental care don't want to randoml
 
 Randomization is unnatural. You are used to giving advice about dental care in an assured voice that lets your patients know that your recommendations are based on sound science. When you randomize, you lose this level of assurance and admit that you are leaving their treatment choice up to the flip of a coin.
 
-Finally, there are some settings where randomization is just flat out impossible. You want to see the how a new training program helps your patients. Once you take the training, you can't unremember it for half of your upcoming patients.
+Now there are some  settings where randomization is just flat out impossible. In these settings, you use all the approaches developed for observational designs.
 
-Yes, there are workarounds for some of the limitations of randomization. Nevertheless, you will find at times that it makes more sense to abandon randomization altogether and use a different approach for allocating patients to the treatment and control groups.
+There is a middle ground, however, between randomized designs and observational designs. You have the ability to assign patients to receive a treatment or not, but you control the assignment yourself rather than leaving the assignment to a flip of a coin. You run an experiment without randomization. If you do this carefully, you can produce evidence that can be just as persuasive as a randomized trial, but you avoid the many limitations associated with randomization.
 
 ## The infamous historical control
 
@@ -37,7 +37,7 @@ Hiromi Nishi, Susumu Horikoshi, Tetsumi Yoshida, Noriyasu Fukushima, Kyoko Oshit
 
 Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9. PMID: 33392808.
 
-Can you compare 2022-2023 patients with those recruited 3 to 14 years earlier? Apparently with enough credibility to warrant a call for "development of comprehensive national guidelines, initiation of randomized comparative trials, and the establishment of collaborative research networks among international healthcare institutions."
+Can you compare 2022-2023 patients with those recruited 3 to 14 years earlier? Apparently. And with enough credibility to warrant a call for "development of comprehensive national guidelines, initiation of randomized comparative trials, and the establishment of collaborative research networks among international healthcare institutions."
 
 You might be a bit more cautious. Even so, there are times when a comparison to historical controls is called for. If you are examining a serious condition that hurts everyone it touches, and there is no proven remedy available, then by all means give any new treatment with any hope to everyone who comes to see you. If that treatment shows any improvement over a historical failure rate of 100%, that will be so patently obvious that you don't need a concurrent control.
 
@@ -46,7 +46,9 @@ For situations not quite so stark, the historical control does not fare as well.
 A similar problem occurs when your control group is separated from your treatment group not by time but by clinic. A study of tube-feeding in dysphagia patients (Su 2022) compared 23 patients getting a thickened water treatment at one neurology unit of a hospital to 23 patients getting standard care at a different neurology unit of the same hospital. The treatment and control were administered during the same time frame (March to December of 2021), but the treatment and control patients were geographically separated into different clinics. It was the same hospital, and the authors have assured you that "medical and nursing conditions were very similar between the two
 units." Indeed a table in the paper shows that the demographic features of patients in the two units are similar. If you still have some lingering concerns, though, about differences in the two units, you are not alone.
 
-You can improve the credibility of studies where the treatment and control groups are separated by time or distance. These do not require all the problems associated with randomization, but they can provide evidence that is almost as persuasive. The key is to look at more than many different time points, look at many different components of your intervention, or look at many different physical locations.
+You can improve the credibility of studies where the treatment and control groups are separated by time or distance. These are not perfect studies. There are no perfect studies. They can compete, however, on an even playing field with randomized studies. They can provide evidence that is almost as persuasive, as a randomized trial and don't suffer from the well-known limitations of randomized trials.
+
+How do you apply a treatment without randomization and still do it in a way that is persuasive? The key is to look at more than many different time points, look at many different components of your intervention, or look at many different physical locations.
 
 ## Withdrawal design
 
@@ -64,11 +66,13 @@ He set up an experiment with school children at a Halloween party and found a si
 
 But maybe the kids just got rowdier as time wore on. The researchers had an answer to this objection. They evaluated aggression a third time, after asking the children to remove their costumes. When average aggression levels returned to the level seen at first time point, they could rule out the possibility that some other temporal trend, such as a change induced by the increasing amount of sugar and candy consumed during the party.
 
+Figure 1 shows good and bad results from a withdrawal design. A good result is an up-down trend: up when the intervention is added and back down when the intervention is removed, that tends to support your hypothesis. A bad result, one where the upward trend continues in spite of the withdrawal of the treatment, would tend to discredit your hypothesis. 
+
 Perhaps you can still raise an objection. What if children were like werewolves? They were calm while a full moon was hidden behind clouds, went wild while the full moon emerged from behind the clouds, and then calmed back down when the clouds covered the moon again.
 
 Well, maybe, but most temporal trends are either a sudden jump or a continual upward or downward trend.
 
-You can provide even more credibility with a few simple adaptations. Start with the control, add an intervention, withdraw it, and then add it back again. This is an ABAB design and makes it even harder to cite a moon behind clouds alternative explanation. It would be very strange that the clouds would synchronize with the donning and removal of Halloween masks.
+You can provide even more credibility with a one extra adaptation. Start with the control, add an intervention, withdraw it, and then add it back again. This is an ABAB design and makes it even harder to cite a moon behind clouds alternative explanation. It would be very strange that the clouds would synchronize with the donning and removal of Halloween masks.
 
 A study of self-biting (Jones 1997) illustrates this ABAB design in a single patient. a 15 year old boy had serious behavioral issues including biting his lips hard enough to draw blood. The researchers wanted to test a relaxation therapy and measured lip bleeding before and after implementation of the new therapy. This by itself would be a historical control study. How do you know that the problem wasn't just a problem that goes away over time? The researchers checked this by stopping the relaxation therapy. When the patient reverted to lip biting, the relaxation therapy was re-introduced. Self-biting stopped again, much to the delight of the patient and the researchers.
 
@@ -77,6 +81,10 @@ A study of self-biting (Jones 1997) illustrates this ABAB design in a single pat
 
 
 ## Interrupted time series
+
+An interrupted time series looks at a sequence of events. You have multiple evaluations before the intervention and multiple evaluations after the intervention.
+
+
 
 ## Phased design
 

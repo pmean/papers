@@ -18,6 +18,13 @@ Search strategy
 
 (tooth or dental or craniomandibular or bruxism or temporomandibular) and "historical control"
 
+(tooth or dental or craniomandibular or bruxism or temporomandibular) and "interrupted time series"
+
+(tooth or dental or craniomandibular or bruxism or temporomandibular) and "phased design"
+
+(tooth or dental or craniomandibular or bruxism or temporomandibular) and "stepped wedge design"
+
+
 ## 2023-12-13
 
 Lovely! So glad to hear this.
