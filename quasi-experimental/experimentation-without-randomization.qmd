@@ -11,9 +11,9 @@ They say that randomized control trials are easy. Hand out drugs or placebos bas
 
 Randomization of individual patients is considered the gold standard of research. Any time you have sufficient control to select who gets the treatment and who gets the control, you should always consider individual randomization when planning a study.
 
-Randomization prevents covariate imbalance, both among measured and unmeasured covariates. Patients who are only mildly ill are allocated more or less evenly between the treatment and control group. patients who are terrible about showing up at their monthy evaluations are allocated more or less evenly. Patients who brush their teeth obsessively three or four times a day are allocated more or less evenly.
+Randomization prevents covariate imbalance, both among measured and unmeasured covariates. Frail patients and hardy patients are allocated more or less evenly between the treatment and control group. Patients who are terrible about showing up at their monthly evaluations are allocated more or less evenly. Patients who brush their teeth obsessively three or four times a day are allocated more or less evenly.
 
-There are times, however, when you should reject individual randomization in favor of some non-randomized alternatives. I'm a professional statistician and it may seem to you like a betrayal of everything I've learned. I'm sorry if you feel that way, but I do strongly believe that sometimes (but only sometimes) abandoning randomization is the best course of action.
+It sounds good, but there are times when you should reject individual randomization in favor of some non-randomized alternatives. I'm a professional statistician and it may seem to you like a betrayal of everything I've learned. I'm sorry if you feel that way, but I do strongly believe that sometimes (but only sometimes) abandoning randomization is the best course of action.
 
 Randomization is not all it's cracked up to be. Randomization is expensive. You have to set up an elaborate logistical framework to implement randomization. Skip all that stuff and you can get a larger sample size for the same amount of research funding.
 
@@ -21,7 +21,7 @@ Randomization is unpopular. People who provide dental care don't want to randoml
 
 Randomization is unnatural. You are used to giving advice about dental care in an assured voice that lets your patients know that your recommendations are based on sound science. When you randomize, you lose this level of assurance and admit that you are leaving their treatment choice up to the flip of a coin.
 
-Now there are some  settings where randomization is just flat out impossible. In these settings, you use all the approaches developed for observational designs.
+Now there are some settings where randomization is just flat out impossible. In these settings, you use all the approaches developed for observational designs.
 
 There is a middle ground, however, between randomized designs and observational designs. You have the ability to assign patients to receive a treatment or not, but you control the assignment yourself rather than leaving the assignment to a flip of a coin. You run an experiment without randomization. If you do this carefully, you can produce evidence that can be just as persuasive as a randomized trial, but you avoid the many limitations associated with randomization.
 
@@ -33,23 +33,15 @@ Most researchers sneer at historical control designs. Historical controls have i
 
 Nevertheless, you will see historical control designs in the literature. One study (Nishi 2023) compared the treatment with low-level laser therapy of 21 patients with Oral Mucositis from December 2022 to September 2023 to 96 control patients recruited from another study (Ohbayashi 2021) conducted from August 2009 to December 2019. 
 
-Hiromi Nishi, Susumu Horikoshi, Tetsumi Yoshida, Noriyasu Fukushima, Kyoko Oshita, Syuichi Munenaga, Taro Edahiro, Hiroshi Ureshino, Hideo Shigeishi, Yukio Yoshioka, Masaru Konishi, Noriaki Ide, Yuma Ogawa, Rikou Marukawa, Tomoaki Shintani, Natumi Ino, Mikihito Kajiya, Naoya Kakimoto, Hiroki Ohge, Tatsuo Ichinohe, and Hiroyuki Kawaguchi. Efficacy of Low-Level Laser Therapy for Oral Mucositis in Hematologic Patients Undergoing Transplantation: A Single-Arm Prospective Study. J Pers Med. 2023 Nov; 13(11): 1603. doi: 10.3390/jpm13111603. PMCID: PMC10672422. PMID: 38003918.
-
-Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9. PMID: 33392808.
-
 Can you compare 2022-2023 patients with those recruited 3 to 14 years earlier? Apparently, according to the authors. And with enough credibility to warrant a call for "development of comprehensive national guidelines, initiation of randomized comparative trials, and the establishment of collaborative research networks among international healthcare institutions."
 
-You might be a bit more cautious. Even so, there are times when a comparison to historical controls is called for. If you are examining a serious condition that hurts everyone it touches, and there is no proven remedy available, then by all means give any new treatment with any hope to everyone who comes to see you. If that treatment shows any improvement over a historical failure rate of 100%, that will be so patently obvious that you don't need a concurrent control.
+You might be a bit more cautious. The problem with historical controls is that they fail to account for temporal trends unrelated to your therapy. If you notice a change in the quality of care provided between 2019 and 2020, is that due to the intervention you've been testing or is it due to the many changes in care produced by the COVID pandemic? Did your intervention coincide with the introduction of fluoridation of your local water supply?
 
-For situations not quite so stark, the historical control does not fare as well. The problem with historical controls is that they fail to account for temporal trends unrelated to your therapy. If you notice a change in the quality of care provided between 2019 and 2020, is that due to the intervention you've been testing or is it due to the many changes in care produced by the COVID pandemic? Did your intervention coincide with the introduction of fluoridation of your local water supply?
-
-A similar problem occurs when your control group is separated from your treatment group not by time but by clinic. A study of tube-feeding in dysphagia patients (Su 2022) compared 23 patients getting a thickened water treatment at one neurology unit of a hospital to 23 patients getting standard care at a different neurology unit of the same hospital. The treatment and control were administered during the same time frame (March to December of 2021), but the treatment and control patients were geographically separated into different clinics. It was the same hospital, and the authors have assured you that "medical and nursing conditions were very similar between the two units." Indeed a table in the paper shows that the demographic features of patients in the two units are similar. If you still have some lingering concerns, though, about differences in the two units, you are not alone.
+It could just be something as simple as your body's tendency to heal itself over time. It was Voltaire who pointed out "The art of medicine consists of amusing the patient while nature cures the disease."
 
 ## Quasi-experiments to the rescue
 
-You can improve the credibility of studies where the treatment and control groups are separated by time or distance. These are not perfect studies. There are no perfect studies. They can compete, however, on an even playing field with randomized studies. They can provide evidence that is almost as persuasive, as a randomized trial and don't suffer from the well-known limitations of randomized trials.
-
-A common pattern to these studies is the separation of a single "before" evaluation into multiple "before" evaluations and a similar separation of a single "after" evaluation into multiple "after" evaluations.
+You can improve the credibility of studies where the treatment and control groups are separated by time. These are not perfect studies. There are no perfect studies. They can compete, however, on an even playing field with randomized studies. They can provide evidence that is almost as persuasive, as a randomized trial and don't suffer from the well-known limitations of randomized trials.
 
 Many of these approaches fall into a category of research known as quasi-experimental designs. There are varying definitions for quasi-experimental designs, but a common one is a research design where the researchers have experimental control, meaning having the ability to assign treatments and controls, but decline to use randomization to allocate patients to these groups. 
 
@@ -59,12 +51,23 @@ In a quasi-experimental design, researchers deliberately decline to randomize be
 
 ## Interrupted time series
 
-An interrupted time series looks at a sequence of events. You have multiple evaluations before the intervention and multiple evaluations after the intervention.
+The interrupted time series is a common approach to add rigor without randomization. You need to separate a single "before" evaluation into multiple "before" evaluations and make a similar separation of a single "after" evaluation into multiple "after" evaluations.
 
+You have multiple evaluations before the intervention, give the intervention to everyone and then make multiple evaluations after the intervention.
+
+The thing you are hoping for is a flat pattern during the multiple evaluations before the intervention, a sudden jump right at the intervention, and a flat pattern for all the evaluations after the intervention. In contrast an upward trend at each and every evaluation is very strong negative evidence.
+
+You might see other patterns. If a patient is getting worse over time, does the slope prior to the intervention level out somewhat after the intervention?
+
+## Phased intervetions
+
+It can help even more if your intervention one that can be split and implemented in different phases. If so, make multiple evaluations, implement one phase of the intervention, make additional evaluations, implement a second phase of the intervention, and so forth.
+
+You are hoping for a flat-jump-flat-jump-flat pattern.
 
 ## Withdrawal design
 
-Can you withdraw a treatment after you apply it. That won't work for training interventions. You can't unlearn something. Some interventions, like a remodel in the physical layout of a clinic, require to much time and expense to be undone. But when you can withdraw a treatment, you have a very powerful way to demonstrate its effectiveness.
+Can you withdraw a treatment after you apply it? That won't work for training interventions. You can't unlearn something. Some interventions, like a remodel in the physical layout of a clinic, require to much time and expense to be undone. But when you can withdraw a treatment, you have a very powerful way to demonstrate its effectiveness.
 
 In awithdrawal design (sometimes called the ABA design) you start with a control (A), switch to a treatment (B) and then switch back to your control.
 
@@ -90,12 +93,21 @@ A study of self-biting (Jones 1997) illustrates this ABAB design in a single pat
 
 ![](self-biting-graph.png)
 
+## How many evaluation points do you need?
 
+There is no easy answer to how many evaluation points you might need. If your data is noisy, you might need quite a few evaluation points. Even without a lot of noise, you want enough evaluation points to identify and rule out any cyclic patterns. For monthly evaluations, a couple of years would be nice so you can factor out seasonality. For daily evaluations, a couple of weeks so you can rule out any "hump day" effects.
 
+The interesting issue is that you may be able to reduce the number of patients. The pattern observed in the single self-biting patient is quite revealing. This is an example of an "n of 1" design, where changes correspond precisely to the times when the intervention is added (or removed). 
 
-## Phased design
+## A different problem to addressed
+
+What can you do when your control group is separated from your treatment group not by time but by clinic. A study of tube-feeding in dysphagia patients (Su 2022) compared 23 patients getting a thickened water treatment at one neurology unit of a hospital to 23 patients getting standard care at a different neurology unit of the same hospital. The treatment and control were administered during the same time frame (March to December of 2021), but the treatment and control patients were geographically separated into different clinics. It was the same hospital, and the authors have assured you that "medical and nursing conditions were very similar between the two units." Indeed a table in the paper shows that the demographic features of patients in the two units are similar. If you still have some lingering concerns, though, about differences in the two units, you are not alone.
 
 ## Stepped wedge design
+
+If you have multiple clinics, split the intervention timing up so that some of the clinics get the intervention early, some at an intermediate time and some closer to the end of the study. This is a stepped wedge design.
+
+You are looking jumps at the times when an intervention occurs, but only in the affected clinics. Clinics that got the intervention earlier or later, you hope that they show a flat pattern instead.
 
 ## Regression discontinuity design
 
@@ -182,3 +194,10 @@ None of these designs are perfect. But when you don't have the option of randomi
 ## Quote
 
 "Of course, from the quasi-experimental perspective, just as from that of physical science methodology, it is obvious that moving out into the real world increases the number of plausible rival hypotheses. Experiments move to quasi-experiemtns and on into queasy experiments, all too easily." Donald T. Campbell, in Methodology and Epistemology for Social Science: Selected Papers, page 322.
+
+## Bibliography
+
+Hiromi Nishi, Susumu Horikoshi, Tetsumi Yoshida, Noriyasu Fukushima, Kyoko Oshita, Syuichi Munenaga, Taro Edahiro, Hiroshi Ureshino, Hideo Shigeishi, Yukio Yoshioka, Masaru Konishi, Noriaki Ide, Yuma Ogawa, Rikou Marukawa, Tomoaki Shintani, Natumi Ino, Mikihito Kajiya, Naoya Kakimoto, Hiroki Ohge, Tatsuo Ichinohe, and Hiroyuki Kawaguchi. Efficacy of Low-Level Laser Therapy for Oral Mucositis in Hematologic Patients Undergoing Transplantation: A Single-Arm Prospective Study. J Pers Med. 2023 Nov; 13(11): 1603. doi: 10.3390/jpm13111603. PMCID: PMC10672422. PMID: 38003918.
+
+Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9. PMID: 33392808.
+
