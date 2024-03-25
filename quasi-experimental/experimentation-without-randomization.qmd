@@ -55,21 +55,35 @@ The interrupted time series is a common approach to add rigor without randomizat
 
 You have multiple evaluations before the intervention, give the intervention to everyone and then make multiple evaluations after the intervention.
 
-The thing you are hoping for is a flat pattern during the multiple evaluations before the intervention, a sudden jump right at the intervention, and a flat pattern for all the evaluations after the intervention. In contrast an upward trend at each and every evaluation is very strong negative evidence.
+The thing you are hoping for is a flat pattern during the multiple evaluations before the intervention, a sudden jump right at the intervention, and a flat pattern for all the evaluations after the intervention. In contrast an upward (or downward) trend at each and every evaluation is very strong negative evidence.
 
-You might see other patterns. If a patient is getting worse over time, does the slope prior to the intervention level out somewhat after the intervention?
+If you detect a slope or trend prior to the intervention, things get a bit more complicated. Look for either a jump at the intervention but also look for a change in slope. Either a flattening of a negative trend or an acceleration of an already positive trend is good news for your intervention.
+
+A study of poor compliance with clear aligner therapy (Timm 2022) monitored patients biweekly in 2019 prior to the introduction of a system of electronic reminders and feedback. Monitoring continued throughout all of 2020. The second half of 2019 was compared to the second half of 2020, to avoid problems with start-up and with seasonality. The rate of poor compliance was flat during the second half of 2019, hovering around 25%. The data showed a downward trend in the second half of 2020, leveling off at a much better value of 9% in October 2020. The authors concluded that electronic reminders and feedback effectively reduced poor compliance rates.
 
 ## Phased intervetions
 
-It can help even more if your intervention one that can be split and implemented in different phases. If so, make multiple evaluations, implement one phase of the intervention, make additional evaluations, implement a second phase of the intervention, and so forth.
+While a flat-jump-flat pattern for an interrupted time series is good news, you are still left with one concern. Did some other change, occurring at the same time as your intervention, interfere with your experiment? It could work both ways. It could produce a false positive result or it could mask something real.
 
-You are hoping for a flat-jump-flat-jump-flat pattern.
+You can rule out this concern if your intervention is one that can be split and implemented in different phases. If so, make multiple evaluations, implement one phase of the intervention, make additional evaluations, implement a second phase of the intervention, and so forth.
+
+You are hoping for a flat-jump-flat-jump-flat pattern. Outside influences might cause a consistent trend up or down, or it might cause a single sudden jump, but it would be very unusual for something to cause a flat-jump-flat-jump-flat pattern.
+
+If there is an adverse trend prior to the first intervention, examine whether that trend is reduced after each intervention point. You have to work harder if there are trends, but the work is more tedious than difficult.
+
+Running an intervention in phases is not used nearly often enough in dental research. It is a very powerful design that can rule out most confounding effects and produce a result just as persuasive as a randomized trial.
+
+A large teaching hospital implemented three changes to their electronic health record system to reduce inappropriate red blood cell (RBC) and platelet transfusion (Atia 2022). In November 2012, the system displayed a warning was shown when clinicians prescribed RBC for patients who had hemoglobin greater than 100 g/L. In May 2015, a lower threshold triggered the warning and the system displayed the most recent hemoglobin level and date. In May 2016, the threshold for hemoglobin was lowered again. The results were mixed, with statistical significant drops at some but not all of the intervention times. The results also varied by the type of clinic.
+
+This will always be an issue with this type of design. A flat-jump-flat-jump-flat pattern is very persuasive positive evidence. A pattern with no jumps and no changes in trend is very persuasive negative evidence. But when you see a jump at only one of the three intervention points, it could be a negative finding or it could represent an intervention where only one of the three phases was effective.
+
+Atia J, Evison F, Gallier S, Pettler S, Garrick M, Ball S, Lester W, Morton S, Coleman J, Pankhurst T. Effectiveness of clinical decision support in controlling inappropriate red blood cell and platelet transfusions, speciality specific responses and behavioural change. BMC Med Inform Decis Mak. 2022 Dec 29;22(1):342. doi: 10.1186/s12911-022-02045-8. PMID: 36581868; PMCID: PMC9798655.
 
 ## Withdrawal design
 
 Can you withdraw a treatment after you apply it? That won't work for training interventions. You can't unlearn something. Some interventions, like a remodel in the physical layout of a clinic, require to much time and expense to be undone. But when you can withdraw a treatment, you have a very powerful way to demonstrate its effectiveness.
 
-In awithdrawal design (sometimes called the ABA design) you start with a control (A), switch to a treatment (B) and then switch back to your control.
+In a withdrawal design (sometimes called the ABA design) you start with a control (A), switch to a treatment (B) and then switch back to your control.
 
 A very simple illustration of this is described in Philip Zimbardo's book about his infamous prisoner experiments. 
 
@@ -87,17 +101,17 @@ Perhaps you can still raise an objection. What if children were like werewolves?
 
 Well, maybe, but most temporal trends are either a sudden jump or a continual upward or downward trend.
 
-You can provide even more credibility with a one extra adaptation. Start with the control, add an intervention, withdraw it, and then add it back again. This is an ABAB design and makes it even harder to cite a moon behind clouds alternative explanation. It would be very strange that the clouds would synchronize with the donning and removal of Halloween masks.
+You can provide even more credibility with a one extra adaptation. Start with the control, add an intervention, withdraw it, and then add it back again. This is an ABAB design and makes it even harder to cite a "moon behind clouds" alternative explanation. It would be very strange that the clouds would synchronize with the donning and removal of Halloween masks.
 
-A study of self-biting (Jones 1997) illustrates this ABAB design in a single patient. a 15 year old boy had serious behavioral issues including biting his lips hard enough to draw blood. The researchers wanted to test a relaxation therapy and measured lip bleeding before and after implementation of the new therapy. This by itself would be a historical control study. How do you know that the problem wasn't just a problem that goes away over time? The researchers checked this by stopping the relaxation therapy. When the patient reverted to lip biting, the relaxation therapy was re-introduced. Self-biting stopped again, much to the delight of the patient and the researchers.
+A study of self-biting (Jones 1997) illustrates this ABAB design in a single patient. a 15 year old boy had serious behavioral issues including biting his lips hard enough to draw blood. The researchers wanted to test a relaxation therapy and measured lip bleeding before and after implementation of the new therapy. This by itself would be a simple historical control study. How do you know that the problem wasn't just a problem that goes away over time? The researchers checked this by stopping the relaxation therapy. When the patient reverted to lip biting, the relaxation therapy was re-introduced. Self-biting stopped again, much to the delight of the patient and the researchers.
 
 ![](self-biting-graph.png)
 
 ## How many evaluation points do you need?
 
-There is no easy answer to how many evaluation points you might need. If your data is noisy, you might need quite a few evaluation points. Even without a lot of noise, you want enough evaluation points to identify and rule out any cyclic patterns. For monthly evaluations, a couple of years would be nice so you can factor out seasonality. For daily evaluations, a couple of weeks so you can rule out any "hump day" effects.
+There is no easy answer to how many evaluation points you might need. If your data is noisy, you might need quite a few evaluation points. Even without a lot of noise, you want enough evaluation points to identify and rule out any cyclic patterns. For monthly evaluations, a couple of years would be nice so you can factor out seasonality. For daily evaluations, a couple of weeks so you can rule out any "Hump Day" or "Thank God It's Friday" effects.
 
-The interesting issue is that you may be able to reduce the number of patients. The pattern observed in the single self-biting patient is quite revealing. This is an example of an "n of 1" design, where changes correspond precisely to the times when the intervention is added (or removed). 
+The interesting issue is that when you increase the number of measurement times, you may be able to reduce the number of patients. The pattern observed in the single self-biting patient is quite revealing. This is an example of an "n of 1" design (Davidson 2020), where changes correspond precisely to the times when the intervention is added (or removed). 
 
 ## A different problem to addressed
 
@@ -201,3 +215,4 @@ Hiromi Nishi, Susumu Horikoshi, Tetsumi Yoshida, Noriyasu Fukushima, Kyoko Oshit
 
 Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9. PMID: 33392808.
 
+Davidson KW, Silverstein M, Cheung K, Paluch RA, Epstein LH. Experimental Designs to Optimize Treatments for Individuals: Personalized N-of-1 Trials. JAMA Pediatr. 2021 Apr 1;175(4):404-409. doi: 10.1001/jamapediatrics.2020.5801. PMID: 33587109; PMCID: PMC8351788.

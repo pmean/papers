@@ -4,27 +4,6 @@ format: html
 editor: source
 ---
 
-## 2024-01-30
-
-Search strategy
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "withdrawal design"
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "stepped wedge"
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "regression discontinuity"
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "historical control"
-
-(tooth or dental or craniomandibular or bruxism or temporomandibular) and "historical control"
-
-(tooth or dental or craniomandibular or bruxism or temporomandibular) and "interrupted time series"
-
-(tooth or dental or craniomandibular or bruxism or temporomandibular) and "phased design"
-
-(tooth or dental or craniomandibular or bruxism or temporomandibular) and "stepped wedge design"
-
-
 ## 2023-12-13
 
 Lovely! So glad to hear this.
