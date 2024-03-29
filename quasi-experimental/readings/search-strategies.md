@@ -4,9 +4,7 @@ format: html
 editor: source
 ---
 
-## 2024-03-25
-
-### Mesh terms
+## Mesh terms
 
 I'm not sure if the Mesh terms help or not. They seem to reduce the number of false positives, maybe.
 
@@ -14,36 +12,15 @@ I'm not sure if the Mesh terms help or not. They seem to reduce the number of fa
 -   Tooth
 -   Non Randomized Controlled Trials as Topic
 
-### Searches and results
+## Searches and results
 
--   "Dental Health Services"[Mesh] and "regression discontinuity"
-    -   3 results
-    -   Roberts ET, Mellor JM, McInerny MP, Sabik LM. Effects of a Medicaid dental coverage "cliff" on dental care access among low-income Medicare beneficiaries. Health Serv Res. 2023 Jun;58(3):589-598. doi: 10.1111/1475-6773.13981. Epub 2022 Apr 9. PMID: 35362157; PMCID: PMC10154168.
-    -   Simon L, Song Z, Barnett ML. Dental Services Use: Medicare Beneficiaries Experience Immediate And Long-Term Reductions After Enrollment. Health Aff (Millwood). 2023 Feb;42(2):286-295. doi: 10.1377/hlthaff.2021.01899. PMID: 36745837; PMCID: PMC10022587.
-## 2024-01-30
+### Historical control
 
--   "Tooth"[Mesh] and "regression discontinuity"
-    -   0 results
+(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "historical control"
 
--   "regression discontinuity"
-    -   77 results
+(tooth or dental or craniomandibular or bruxism or temporomandibular) and "historical control"
 
--   "Non-Randomized Controlled Trials as Topic"[Mesh]
-    -   1,076 results
-
--   "Non-Randomized Controlled Trials as Topic"[Mesh] and "Dental Health Services"[Mesh]
-    -   0 results  
-
--   "Non-Randomized Controlled Trials as Topic"[Mesh] and (tooth or dental or craniomandibular or bruxism or temporomandibular)
-    -   26 results
-    -   Pandis N, Tu YK, Fleming PS, Polychronopoulou A. Randomized and nonrandomized studies: complementary or competing? Am J Orthod Dentofacial Orthop. 2014 Nov;146(5):633-40. doi: 10.1016/j.ajodo.2014.08.002. Epub 2014 Oct 28. PMID: 25439214.
-    -   Mickenautsch S, Yengopal V. Reports of uncontrolled clinical trials for directly placed restorations in vital teeth. Braz Oral Res. 2017 Jul 3;31:e48. doi: 10.1590/1807-3107BOR-2017.vol31.0048. PMID: 28678967.
-    
--   "Non-Randomized Controlled Trials as Topic"[Mesh] and (dental or dentist or dentistry)
-    -   15 results (full free text)
-
--   "quasi-experimental" and (dental or dentist or dentistry)
-    -   332 results (full free text)
+### Interrupted time series    
 
 -   "interrupted time series" and (dental or dentist or dentistry)
     -   169 results (114 full free text)
@@ -61,22 +38,55 @@ Search strategy
     -   20 results (13 full free text)
     -   Timm LH, Farrag G, Wolf D, Baxmann M, Schwendicke F. Effect of electronic reminders on patients' compliance during clear aligner treatment: an interrupted time series study. Sci Rep. 2022 Oct 5;12(1):16652. doi: 10.1038/s41598-022-20820-5. PMID: 36198717; PMCID: PMC9534859.
     
-
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "withdrawal design"
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "stepped wedge"
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "regression discontinuity"
-
-(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "historical control"
-
-(tooth or dental or craniomandibular or bruxism or temporomandibular) and "historical control"
-
 (tooth or dental or craniomandibular or bruxism or temporomandibular) and "interrupted time series"
+
+### Non-randomized
+
+-   "Non-Randomized Controlled Trials as Topic"[Mesh]
+    -   1,076 results
+
+-   "Non-Randomized Controlled Trials as Topic"[Mesh] and "Dental Health Services"[Mesh]
+    -   0 results  
+
+-   "Non-Randomized Controlled Trials as Topic"[Mesh] and (tooth or dental or craniomandibular or bruxism or temporomandibular)
+    -   26 results
+    -   Pandis N, Tu YK, Fleming PS, Polychronopoulou A. Randomized and nonrandomized studies: complementary or competing? Am J Orthod Dentofacial Orthop. 2014 Nov;146(5):633-40. doi: 10.1016/j.ajodo.2014.08.002. Epub 2014 Oct 28. PMID: 25439214.
+    -   Mickenautsch S, Yengopal V. Reports of uncontrolled clinical trials for directly placed restorations in vital teeth. Braz Oral Res. 2017 Jul 3;31:e48. doi: 10.1590/1807-3107BOR-2017.vol31.0048. PMID: 28678967.
+    
+-   "Non-Randomized Controlled Trials as Topic"[Mesh] and (dental or dentist or dentistry)
+    -   40 results (16 full free text)
+
+### Phased design
 
 (tooth or dental or craniomandibular or bruxism or temporomandibular) and "phased design"
 
+### Quasi-experimental
+
+-   "quasi-experimental" and (dental or dentist or dentistry)
+    -   332 results (full free text)
+    
+### Regression discontinuity
+
+-   "Dental Health Services"[Mesh] and "regression discontinuity"
+    -   3 results
+    -   Roberts ET, Mellor JM, McInerny MP, Sabik LM. Effects of a Medicaid dental coverage "cliff" on dental care access among low-income Medicare beneficiaries. Health Serv Res. 2023 Jun;58(3):589-598. doi: 10.1111/1475-6773.13981. Epub 2022 Apr 9. PMID: 35362157; PMCID: PMC10154168.
+    -   Simon L, Song Z, Barnett ML. Dental Services Use: Medicare Beneficiaries Experience Immediate And Long-Term Reductions After Enrollment. Health Aff (Millwood). 2023 Feb;42(2):286-295. doi: 10.1377/hlthaff.2021.01899. PMID: 36745837; PMCID: PMC10022587.
+
+-   "Tooth"[Mesh] and "regression discontinuity"
+    -   0 results
+
+-   "regression discontinuity"
+    -   77 results
+    
+(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "regression discontinuity"
+
+#### Stepped wedge
+
+(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "stepped wedge"
+
 (tooth or dental or craniomandibular or bruxism or temporomandibular) and "stepped wedge design"
 
+#### Withdrawal design
+
+(tooth or oral or dental or cranio or craniomandibular or ortho or orthodontic or "mineralized tissue" or bone or bruxism or temporomandibular) and "withdrawal design"
 
