@@ -11,17 +11,17 @@ They say that randomized control trials are easy. Hand out drugs or placebos bas
 
 Randomization of individual patients is considered the gold standard of research. It has several major advantages over other approaches to research. Randomization prevents covariate imbalance, both among measured and unmeasured covariates. Frail patients and hardy patients are allocated more or less evenly between the treatment and control group. Patients who are terrible about showing up at their monthly evaluations are allocated more or less evenly. Patients who brush their teeth obsessively three or four times a day are allocated more or less evenly.
 
-Any time you have sufficient control to select who gets the treatment and who gets the control, you should always consider individual randomization when planning a study. Consider, yes, but there are times when you should reject individual randomization in favor of some non-randomized alternatives. 
+Randomization does not have to be at the individual patient level. You might use cluster randomization where you select a large number of dental practices and randomly assign half of the locations to try a new intervention on all of their patients. All of the patients at the other clinic serve as controls. Cluster randomization requires special care during data analysis and often require matching or other controls. Nevertheless, cluster randomized trials have all the same benefits of individual randomization.
 
-Randomization is not all it's cracked up to be. Randomization is expensive. You have to set up an elaborate logistical framework to implement randomization. Skip all that stuff and you can get a larger sample size for the same amount of research funding.
+There are times, however, when you should reject individual or cluster randomization in favor of some non-randomized alternatives. The sad truth is that randomization is not all it's cracked up to be.
 
-Randomization is unpopular. People who provide dental care don't want to randomly switch back and forth between two different treatment protocols.
+Randomization is expensive. You have to set up an elaborate logistical framework to implement randomization. Skip all that stuff and you can get a larger sample size for the same amount of research funding.
+
+Randomization is unpopular. In many settings, things are already messy enough and you don't need the extra hassle of switching back and forth between two different treatment protocols. This is often true in emergency care settings where the distraction caused by randomization is quite unwelcome.
 
 Randomization is unnatural. You are used to giving advice about oral health in an assured voice that lets your patients know that your recommendations are based on sound science. When you randomize, you lose this level of assurance and admit that you are leaving their treatment choice up to the flip of a coin.
 
-Now there are some settings where randomization is just flat out impossible. In these settings, you use all the approaches developed for observational designs.
-
-There is a middle ground, however, between randomized designs and observational designs. You have the ability to assign patients to receive a treatment or not, but you control the assignment yourself rather than leaving the assignment to a flip of a coin. If you do this carefully, you can produce evidence that can be just as persuasive as a randomized trial, but you avoid the many limitations associated with randomization.
+If you have the ability to assign patients to receive a treatment or not, you may choose to control the assignment yourself rather than leaving the assignment to a flip of a coin. If you do this carefully, you can produce evidence that can be just as persuasive as a randomized trial, but you avoid the many limitations associated with randomization.
 
 ## The infamous historical control
 
@@ -37,13 +37,13 @@ You might be a bit more cautious. The problem with historical controls is that t
 
 There is no way to directly test for competing temporal trends. You can, at best, make a qualitative and highly subjective argument that no alternate factor could account for the differences that you saw in your historical controls study.
 
-## The before and after design
+## The before-and-after design
 
-A close cousin to the historical control design is the before and after design also known as a pre-test post-test design. You measure a group of patients at baseline, give all of them the intervention, and then measure them again. There is no control group. 
+A close cousin to the historical control design is the before-and-after design also known as a pre-test post-test design. You measure a group of patients at baseline, give all of them the intervention, and then measure them again. There is no control group. 
 
 A Korean study of Basic Life Support (BLS) training during Dental School evaluated 98 students who received this training during their third year of dental school (Kim 2020). The researchers gave them a test two years after grauduation to see how much they remembered. These students did poorly, scoring an average of 56 points out of 100. Then they provided a refresher course in BLS and gave the test again. The average score increased to 81 points. The authors concluded that it was "necessary to update BLS training periodically and also implement more effective education methods to maintain BLS knowledge and practical skills."
 
-In the before and after design, you have to make the same untestable assumption assumed earlier. You must assume that untreated patients would not have shown as much improvement as you saw among your treated patients. In this study, you might safely conclude that the knowledge level would not have changed much and if anything would probably have declined further over time without the refresher course. This seems quite reasonable in this setting. In other settings, this untestable assumption might fail for the same set of reasons that the historical controls trial failed.
+In the before-and-after design, you have to make the same untestable assumption assumed earlier. You must assume that untreated patients would not have shown as much improvement as you saw among your treated patients. In this study, you might safely conclude that the knowledge level would not have changed much and if anything would probably have declined further over time without the refresher course. This seems quite reasonable in this setting. In other settings, this untestable assumption might fail for the same set of reasons that the historical controls trial failed.
 
 ## Quasi-experiments to the rescue
 
@@ -51,7 +51,7 @@ You can improve the credibility of studies where the treatment and control group
 
 Many of these approaches fall into a category of research known as quasi-experimental designs. There are varying definitions for quasi-experimental designs, but a common one is a research design where the researchers have experimental control, meaning having the ability to assign treatments and controls, but decline to use randomization to allocate patients to these groups. 
 
-The prefix "quasi" implies inferiority. In fact, a prominent researcher (Campbell 1988) calls them "queasy" experiments. This, however, is an unfair characterization.
+The prefix "quasi" implies inferiority. In fact, a prominent researcher (Campbell 1988, page 332) calls them "queasy" experiments. This, however, is an unfair characterization.
 
 In a quasi-experimental design, researchers deliberately decline to randomize because of the known problems with randomization. The researchers recognize abandoning randomization will produce a superior result.
 
@@ -165,41 +165,109 @@ A study of self-biting (Jones 1997) illustrates this ABAB design in a single pat
 
 ## Waiting list control group
 
+In some settings, researchers cannot or will not withhold the treatment from their patients but they do have the ability to control the timing. These open up an opportunity to randomize times.
+
+The simplest concept is to evaluate every patient at baseline, randomly assign half to receive the intervention immediately and half to receive the intervention at the end of the study. This is a waiting list control design.
+
+If the researchers have sufficient resources, the study does not have to end there. When the waiting list control patients complete their intervention, evaluate everyone a third time. Does the waiting list control group show an improvement late that is comparable to those who received the intervention early? Do the intervention patients show a long term persistence in the effectiveness of their intervention or is there some backsliding?
+
+Figure 4 shows a hypothetical outcome of a waiting list control design. The two groups 
+
+```{r time-series-9, echo=FALSE, comment="", fig.height=4}
+x <- 1:3
+y1 <- c(1.1, 2.3, 2.2)
+y2 <- c(1.3, 1.2, 2.1)
+par(mar=c(2.6, 0.6, 1.6, 0.1))
+plot(x, y1, axes=FALSE, type="n", ylim=c(0.7, 4.5))
+
+text(1.5, 2.9, "X")
+segments(1.5, 3.0, 1.5, 4.5, lty="dotted", col="gray")
+segments(1, y1[1]+2, 2, y1[2]+2, lty="solid", col="darkgreen")
+segments(2, y1[2]+2, 3, y1[3]+2, lty="dotted", col="darkgreen")
+text(1:3, y1+2, "I", col="darkgreen")
+
+text(2.5, 0.9, "X")
+segments(2.5, 1.0, 2.5, 2.5, lty="dotted", col="gray")
+segments(1, y2[1], 2, y2[2], lty="solid", col="red")
+segments(2, y2[2], 3, y2[3], lty="dotted", col="red")
+text(1:3, y2, "W", col="red")
+axis(side=1, at=x, labels=paste0("O", x))
+```
+
+Figure 4. 
+
+A study of dental care practices used an Internet driven educational intervention to encourage providers to ask about tobacco use and to advise any smokers so identified to stop smoking (Houston 2008). The researchers identified 190 practices for the study and all of them were evaluated on asking and advising at baseline using patient exit cards. Patients received a card at the end of their visit and asked to fill out the cards at home and return them to the research team. Then half of the clinics were randomly assigned to receive the intervention immediately and half were assigned to receive the intervention at the end of the eight month study. While the intervention had no impact on asking about smoking, it did result in a greater degree of advising among the smokers identified. The intervention clinics improved substantially advising 55% of the time at eight months compared to 44% at baseline. The control group the advising rates were 45% at eight months, only a slight increase over the baseline rate of 42%. This disparity, as measured by a test of statistical interaction, was statistically significant. The authors concluded that an "Internet-delivered intervention designed to promote and support tobacco control in dental practices can be effective."
+
+This study did not evaluate again sixteen months after the start to see if there was a similar improvement in the waiting list control clinics or to see if the Internet delivery persisted long term in the treatment group.
+
 ## Stepped wedge design
+
+Once you have control over timing, you can do even more. Instead of treating a random half of the patients right away and the other half at the end of the study, you can divide things even finer. Start a random group early, another random group late, and the rest at one or more times in between. This is a stepped wedge design. Think of it as a waiting list control on steroids.
+
+When the jump at one treatment time is accompanied by flatness at the patients who were not treated, you have substantial evidence that no external factor is conspiring against you. 
+
+Figure 5 shows the hypothetical outcome of a stepped wedge design. The orange line with ones represents the early intervention and shows the pattern of one jump with flatness elsewhere that supports the effectiveness of your intervention. The blue line with twos, representing the middle intervention and the green line with threes, representing the late intervention, also show a pattern supportive of the effectiveness of your intervention. The dotted lines highlight that not every stepped wedge design takes advantage of the information available at times other than the intervention. This is a lost opportunity because flatness at these observations greatly strengthens the credibility of your findings.
+
+```{r time-series-10, echo=FALSE, comment=""}
+x <- 1:10
+y1 <- c(1.1, 1.3, 2.4, 2.2, 2.3, 2.2, 2.2, 2.2, 2.1, 2.2)
+y2 <- c(1.2, 1.3, 1.2, 1.1, 1.2, 2.3, 2.4, 2.2, 2.3, 2.3)
+y3 <- c(1.3, 1.2, 1.1, 1.3, 1.1, 1.3, 1.1, 1.2, 2.3, 2.1)
+par(mar=c(2.6, 0.6, 1.6, 0.1))
+
+plot(x, y1, axes=FALSE, type="n", ylim=c(0.9, 6.5))
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+
+text(2.5, 0.9, "X")
+segments(2.5, 1.0, 2.5, 2.5, lty="dotted", col="gray")
+lines(x, y1, col="orange", lty="dotted")
+lines(x[2:3], y1[2:3], col="orange", lty="solid")
+text(x, y1, "1", col="orange")
+
+text(5.5, 2.9, "X")
+segments(5.5, 3.0, 5.5, 4.5, col="gray")
+lines(x, y2+2, col="blue", lty="dotted")
+lines(x[5:6], y2[5:6]+2, col="blue", lty="solid")
+text(x, y2+2, "2", col="blue")
+
+text(8.5, 4.9, "X")
+segments(8.5, 5.0, 8.5, 6.5, col="gray")
+lines(x, y3+4, col="green", lty="dotted")
+lines(x[8:9], y3[8:9]+4, col="green", lty="dotted")
+text(x, y3+4, "3", col="green")
+```
+
+Figure 5. Hypothetical outcome of a stepped wedge design
+
+A study at a large teaching hospital examined the effectiveness of a new care protocol that encouraged nurses to provide better oral health care to patients in their wards (Schafthuizen 2023). The intervention was a seven step Implementation of Change Model for provision of good oral health care. The researchers divided the wards into four groups that were provided this intervention at separate times. They measured adherence to the protocol using a nine item questionnaire given to patients at five observation times bracketing each intervention. The research team also assessed the nurses' knowledge and attitude towards oral care, but only at the beginning and very end of the study. Knowledge did show a small but statistically significant increase from an average of 69 points (out of 100) to 72 points. Attitudes remained unchanged, and adherence actually declined from 60% at the start of the study to 35% at the end. The researchers did not have a good suggestion for this decline and suggested an evaluation of barriers and facilitators was needed.
 
 ## Regression discontinuity
 
-In all of the previous examples, everybody gets the intervention, sometimes with multiple evaluations, sometimes with the intervention broken into phases, and sometimes with the intervention staggered over time. Another type of design, the regression discontinuity design, examines treatment allocation where a qualifying variable is used to decide controls who gets the intervention. This qualifying variable can (and often is) associated with the outcome.
+In all of the previous examples, everybody gets the intervention, sometimes with multiple evaluations, sometimes with the intervention broken into phases, and sometimes with the intervention staggered over time. Another type of design, the regression discontinuity design, examines treatment allocation where a qualifying variable is used to decide controls who gets the intervention. This qualifying variable can be (and often is) associated with the outcome.
 
 You might reserve an intervention for patients based on their score on a measure of illness severity. You might offer free or subsidized care only to patients based on their income. You might admit trainees to a special program based on their score on a qualifying exam.
 
-This seems like a terrible setting to conduct research. The worst patients get the intervention? Surely any effect of the intervention will be masked by this lopsided allocation.
+This seems like a terrible setting to conduct research. Only the worst patients get the intervention? Surely any effect of the intervention will be masked by this lopsided allocation.
 
 The secret to a regression discontinuity design is that you compare patients just barely on either side of the dividing line and ignore the patients at the extremes. 
 
 There is a good intuition to this. It makes no sense to compare the very sickest patients with only mildly ill patients, the very rich patients with the desperately poor patients, or the A+ students to the students who flunked. Any difference that you see at the extremes will be strongly influenced by the qualifying measure. But the influence of the qualifying measure is less strong when you restrict yourself to a narrow window on either side of your cut-off.
 
-Figures 4 through 6 shows a hypothetical setting for a regression discontinuity design. A potential confounding variable shows a relationship to the outcome (Figure 4). Patients scoring below a threshold are assigned to the treatment (Figure 5). In this hypothetical dataset, the treatment lifts all patients by a small amount. Then only patients near the threshold are selected for the regression discontinuity study (Figure 6).
+Figures 6 through 8 shows a hypothetical setting for a regression discontinuity design. A qualifying variable shows a relationship to the outcome (Figure 6). Patients scoring below a threshold are assigned to the treatment (Figure 7). In this hypothetical dataset, the treatment lifts all patients by a small amount. Then only patients near the threshold are selected for the regression discontinuity study (Figure 8).
 
 ![](images/regression-discontinuity-01.png)
 
-Figure 5. Allocation of patients to the intervention based on the qualifying variable.
+Figure 6. Hypothetical data showing a relationship between a qualifying variable and a health outcome. 
 
 ![](images/regression-discontinuity-02.png)
 
-Figure 4. Hypothetical data showing a relationship between a potential confounding variable and a health outcome.
+Figure 7. Allocation of patients to the intervention based on the qualifying variable.
 
 ![](images/regression-discontinuity-03.png)
 
-Figure 6. Removal of patients at the extremes.
+Figure 8. Removal of patients at the extremes.
 
 A regression discontinuity design was used to examine the extent to which Medicaid dental coverage reduced difficulty in accessing dental care (Roberts 2023). The researchers selected patients that were 75 percentage points on either side of the state-specific Medicaid income eligibility threshold. The proportion of patients reporting difficulty accessing dental care was 5% higher in those patients with too much income to qualify for Medicaid coverage.
-
-## Considerations
-
-I'm a professional statistician and it may seem to you like a betrayal of everything I've learned. I'm sorry if you feel that way, but I do strongly believe that sometimes (but only sometimes) abandoning randomization is the best course of action. 
-
-Sometimes an intervention is implemented by someone higher on the food chain than the researcher. A nation might pass a law providing new benefits for dental care or impose restrictions during the pandemic. It might Watching outcomes for several months before and after appear can help you assess whether 
 
 ## How many evaluation points do you need?
 
@@ -211,19 +279,45 @@ There is a relationship between the number of evaluation points and the number o
 
 The interesting issue is when you increase the number of measurement times, you may be able to reduce to a single patient, the smallest sample size possible. This is an example of an "n of 1" design (Davidson 2020). The pattern observed in the single self-biting patient is quite revealing, where changes correspond precisely to the times when the intervention is added (or removed). 
 
-## Quote
+## Considerations for choosing a non-randomized experiment.
 
-"Of course, from the quasi-experimental perspective, just as from that of physical science methodology, it is obvious that moving out into the real world increases the number of plausible rival hypotheses. Experiments move to quasi-experiemtns and on into queasy experiments, all too easily." Donald T. Campbell, in Methodology and Epistemology for Social Science: Selected Papers, page 322.
+I'm a professional statistician and it may seem to you like a betrayal of everything I've learned to try to talk you out of randomizing. I'm sorry if you feel that way, but I do strongly believe that sometimes abandoning randomization is the best course of action. But only sometimes. Here are some settings where you would prefer to do this.
+
+Sometimes an intervention is implemented by someone higher on the food chain than the researcher. A nation might pass a law providing new benefits for dental care or impose restrictions during the pandemic. A court ruling in a liability case leads to major changes in dental practice. A state licensing board changes certification requirements. These settings fit naturally into an interrupted time series design. For a law, court ruling, or certification change that is phased in, even better. 
+
+The astute reader might note here that an intervention not under the direct control of the researcher is no longer an experiment, but would be more accurately described as an observational study. True enough, but the methods mentioned here will still be appropriate for these types of observational studies.
+
+Some interventions cannot be applied to one individual and not another. Examples include physical remodeling, software updates, and community-wide publicity campaigns. Sometimes an intervention is complex enough that care givers will have to make the changes for every patient rather than a randomly selected half.
+
+Sometimes, ethical or practical concerns require that everyone gets the new treatment, but you have control over the timing for each individual. Here a wait list control group or a stepped wedge design can help. These designs also help when patients will demand a new intervention, but they would tolerate a delay. 
+
+In every one of these settings, though, avoid the temptation of the before-and-after design. If you can't randomize or prefer not to randomize, you have to work harder to produce persuasive evidence. Adding multiple evaluation times, breaking the intervention into phases or evaluating both the addition and withdrawal of an intervention are all changes that take a lot more time and energy. Even so, the investment is often worth the trouble.
+
+If an intervention is not mandated by a higher authority, if it is easy to deliver alongside a control, randomization may be your best choice. Always make sure there is reasonable acceptance of randomization among both the caregivers and the patients. 
+
 
 ## Bibliography
 
 Atia J, Evison F, Gallier S, Pettler S, Garrick M, Ball S, Lester W, Morton S, Coleman J, Pankhurst T. Effectiveness of clinical decision support in controlling inappropriate red blood cell and platelet transfusions, speciality specific responses and behavioural change. BMC Med Inform Decis Mak. 2022 Dec 29;22(1):342. doi: 10.1186/s12911-022-02045-8. PMID: 36581868; PMCID: PMC9798655.
 
-Hiromi Nishi, Susumu Horikoshi, Tetsumi Yoshida, Noriyasu Fukushima, Kyoko Oshita, Syuichi Munenaga, Taro Edahiro, Hiroshi Ureshino, Hideo Shigeishi, Yukio Yoshioka, Masaru Konishi, Noriaki Ide, Yuma Ogawa, Rikou Marukawa, Tomoaki Shintani, Natumi Ino, Mikihito Kajiya, Naoya Kakimoto, Hiroki Ohge, Tatsuo Ichinohe, and Hiroyuki Kawaguchi. Efficacy of Low-Level Laser Therapy for Oral Mucositis in Hematologic Patients Undergoing Transplantation: A Single-Arm Prospective Study. J Pers Med. 2023 Nov; 13(11): 1603. doi: 10.3390/jpm13111603. PMCID: PMC10672422. PMID: 38003918.
-
-Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9. PMID: 33392808.
+Campbell, D. T. (1988). Methodology and epistemology for social science: Selected papers. (E. S. Overman, Ed.). University of Chicago Press.
 
 Davidson KW, Silverstein M, Cheung K, Paluch RA, Epstein LH. Experimental Designs to Optimize Treatments for Individuals: Personalized N-of-1 Trials. JAMA Pediatr. 2021 Apr 1;175(4):404-409. doi: 10.1001/jamapediatrics.2020.5801. PMID: 33587109; PMCID: PMC8351788.
 
-The Lucifer Effect: Understanding How Good People Turn Evil, by Philip Zimbardo.
+Houston TK, Richman JS, Coley HL, Ray MN, Allison JJ, Gilbert GH, Gordon JS, Kiefe CI; DPBRN Collaborative Group. Does delayed measurement affect patient reports of provider performance? Implications for performance measurement of medical assistance with tobacco cessation: a Dental PBRN study. BMC Health Serv Res. 2008 May 8;8:100. doi: 10.1186/1472-6963-8-100.
 
+Jones KM, Swearer SM, Friman PC. Relax and try this instead: abbreviated habit reversal for maladaptive self-biting. J Appl Behav Anal. 1997 Winter;30(4):697-9. doi: 10.1901/jaba.1997.30-697.
+
+Kim SY, Shin D, Kim HJ, Karm MH. Changes of knowledge and practical skills before and after retraining for basic life support: Focused on students of Dental School. Int J Med Sci. 2020 Oct 22;17(18):3082-3090. doi: 10.7150/ijms.47343.
+
+Nishi H, Horikoshi S, Yoshida T, Fukushima N, Oshita K, Munenaga S, Edahiro T, Ureshino H, Shigeishi H, Yoshioka Y, Konishi M, Ide N, Ogawa Y, Marukawa R, Shintani T, Ino N, Kajiya M, Kakimoto N, Ohge H, Ichinohe T, and Kawaguchi H. Efficacy of Low-Level Laser Therapy for Oral Mucositis in Hematologic Patients Undergoing Transplantation: A Single-Arm Prospective Study. J Pers Med. 2023 Nov; 13(11): 1603. doi: 10.3390/jpm13111603.
+
+Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9.
+
+Roberts ET, Mellor JM, McInerny MP, Sabik LM. Effects of a Medicaid dental coverage "cliff" on dental care access among low-income Medicare beneficiaries. Health Serv Res. 2023 Jun;58(3):589-598. doi: 10.1111/1475-6773.13981.
+
+Schafthuizen L, Spruit-Bentvelzen L, van Dijk M, van Rosmalen J, Ista E. Implementation of a nursing oral health care protocol in a university teaching hospital: A cluster-randomized stepped-wedge design. Int J Dent Hyg. 2023 Sep 18. doi: 10.1111/idh.12748. Epub ahead of print. PMID: 37722075.
+
+Timm LH, Farrag G, Wolf D, Baxmann M, Schwendicke F. Effect of electronic reminders on patients' compliance during clear aligner treatment: an interrupted time series study. Sci Rep. 2022 Oct 5;12(1):16652. doi: 10.1038/s41598-022-20820-5.
+
+The Lucifer Effect: Understanding How Good People Turn Evil, by Philip Zimbardo.
