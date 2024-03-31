@@ -194,6 +194,8 @@ text(1:3, y2, "W", col="red")
 axis(side=1, at=x, labels=paste0("O", x))
 ```
 
+## Randomizing time
+=======
 Figure 4. 
 
 A study of dental care practices used an Internet driven educational intervention to encourage providers to ask about tobacco use and to advise any smokers so identified to stop smoking (Houston 2008). The researchers identified 190 practices for the study and all of them were evaluated on asking and advising at baseline using patient exit cards. Patients received a card at the end of their visit and asked to fill out the cards at home and return them to the research team. Then half of the clinics were randomly assigned to receive the intervention immediately and half were assigned to receive the intervention at the end of the eight month study. While the intervention had no impact on asking about smoking, it did result in a greater degree of advising among the smokers identified. The intervention clinics improved substantially advising 55% of the time at eight months compared to 44% at baseline. The control group the advising rates were 45% at eight months, only a slight increase over the baseline rate of 42%. This disparity, as measured by a test of statistical interaction, was statistically significant. The authors concluded that an "Internet-delivered intervention designed to promote and support tobacco control in dental practices can be effective."
