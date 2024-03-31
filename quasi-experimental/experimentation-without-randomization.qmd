@@ -298,11 +298,11 @@ If an intervention is not mandated by a higher authority, if it is easy to deliv
 
 ## Bibliography
 
-Atia J, Evison F, Gallier S, Pettler S, Garrick M, Ball S, Lester W, Morton S, Coleman J, Pankhurst T. Effectiveness of clinical decision support in controlling inappropriate red blood cell and platelet transfusions, speciality specific responses and behavioural change. BMC Med Inform Decis Mak. 2022 Dec 29;22(1):342. doi: 10.1186/s12911-022-02045-8. PMID: 36581868; PMCID: PMC9798655.
+Atia J, Evison F, Gallier S, Pettler S, Garrick M, Ball S, Lester W, Morton S, Coleman J, Pankhurst T. Effectiveness of clinical decision support in controlling inappropriate red blood cell and platelet transfusions, speciality specific responses and behavioural change. BMC Med Inform Decis Mak. 2022 Dec 29;22(1):342. doi: 10.1186/s12911-022-02045-8.
 
 Campbell, D. T. (1988). Methodology and epistemology for social science: Selected papers. (E. S. Overman, Ed.). University of Chicago Press.
 
-Davidson KW, Silverstein M, Cheung K, Paluch RA, Epstein LH. Experimental Designs to Optimize Treatments for Individuals: Personalized N-of-1 Trials. JAMA Pediatr. 2021 Apr 1;175(4):404-409. doi: 10.1001/jamapediatrics.2020.5801. PMID: 33587109; PMCID: PMC8351788.
+Davidson KW, Silverstein M, Cheung K, Paluch RA, Epstein LH. Experimental Designs to Optimize Treatments for Individuals: Personalized N-of-1 Trials. JAMA Pediatr. 2021 Apr 1;175(4):404-409. doi: 10.1001/jamapediatrics.2020.5801.
 
 Houston TK, Richman JS, Coley HL, Ray MN, Allison JJ, Gilbert GH, Gordon JS, Kiefe CI; DPBRN Collaborative Group. Does delayed measurement affect patient reports of provider performance? Implications for performance measurement of medical assistance with tobacco cessation: a Dental PBRN study. BMC Health Serv Res. 2008 May 8;8:100. doi: 10.1186/1472-6963-8-100.
 
