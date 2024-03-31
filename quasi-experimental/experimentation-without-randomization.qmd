@@ -99,7 +99,7 @@ There is no easy answer to how many evaluation points you might need. If your da
 
 The interesting issue is that you may be able to reduce the number of patients. The pattern observed in the single self-biting patient is quite revealing. This is an example of an "n of 1" design, where changes correspond precisely to the times when the intervention is added (or removed). 
 
-## A different problem to addressed
+## Randomizing time
 
 What can you do when your control group is separated from your treatment group not by time but by clinic. A study of tube-feeding in dysphagia patients (Su 2022) compared 23 patients getting a thickened water treatment at one neurology unit of a hospital to 23 patients getting standard care at a different neurology unit of the same hospital. The treatment and control were administered during the same time frame (March to December of 2021), but the treatment and control patients were geographically separated into different clinics. It was the same hospital, and the authors have assured you that "medical and nursing conditions were very similar between the two units." Indeed a table in the paper shows that the demographic features of patients in the two units are similar. If you still have some lingering concerns, though, about differences in the two units, you are not alone.
 
