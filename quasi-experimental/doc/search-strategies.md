@@ -40,6 +40,18 @@ Search strategy
     
 (tooth or dental or craniomandibular or bruxism or temporomandibular) and "interrupted time series"
 
+-   interrupted time series sample size
+    -   74 results (48 full free text)
+    -   Zhang B, Liu W, Lemon SC, Barton BA, Fischer MA, Lawrence C, Rahn EJ, Danila MI, Saag KG, Harris PA, Allison JJ. Design, analysis, power, and sample size calculation for three-phase interrupted time series analysis in evaluation of health policy interventions. J Eval Clin Pract. 2020 Jun;26(3):826-841. doi: 10.1111/jep.13266. Epub 2019 Aug 19. PMID: 31429175; PMCID: PMC7028460.
+    -   Turner SL, Karahalios A, Forbes AB, Taljaard M, Grimshaw JM, Cheng AC, Bero L, McKenzie JE. Design characteristics and statistical methods used in interrupted time series studies evaluating public health interventions: protocol for a review. BMJ Open. 2019 Jan 28;9(1):e024096. doi: 10.1136/bmjopen-2018-024096. PMID: 30696676; PMCID: PMC6352832.
+    
+-    Quasi experimental study designs series paper journal of clinical epidemiology
+    -   13 results (4 full free text)
+    -   Simon L. Turner, Amalia Karahalios, Andrew B. Forbes, Monica Taljaard, Jeremy M. Grimshaw, Allen C. Cheng, Lisa Bero, Joanne E. McKenzie, Design characteristics and statistical methods used in interrupted time series studies evaluating public health interventions: a review, Journal of Clinical Epidemiology, Volume 122, 2020, Pages 1-11, ISSN 0895-4356, https://doi.org/10.1016/j.jclinepi.2020.02.006.
+    -   Till Bärnighausen, Peter Tugwell, John-Arne Røttingen, Ian Shemilt, Peter Rockers, Pascal Geldsetzer, John Lavis, Jeremy Grimshaw, Karen Daniels, Annette Brown, Jacob Bor, Jeffery Tanner, Arash Rashidian, Mauricio Barreto, Sebastian Vollmer, Rifat Atun, Quasi-experimental study designs series—paper 4: uses and value, Journal of Clinical Epidemiology, Volume 89, 2017, Pages 21-29, ISSN 0895-4356, https://doi.org/10.1016/j.jclinepi.2017.03.012.
+    -   Barnaby C. Reeves, George A. Wells, Hugh Waddington, Quasi-experimental study designs series—paper 5: a checklist for classifying studies evaluating the effects on health interventions—a taxonomy without labels, Journal of Clinical Epidemiology, Volume 89,
+2017, Pages 30-42, ISSN 0895-4356, https://doi.org/10.1016/j.jclinepi.2017.02.016.
+
 ### Non-randomized
 
 -   "Non-Randomized Controlled Trials as Topic"[Mesh]

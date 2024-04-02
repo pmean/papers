@@ -21,7 +21,9 @@ Randomization is unpopular. In many settings, things are already messy enough an
 
 Randomization is unnatural. You are used to giving advice about oral health in an assured voice that lets your patients know that your recommendations are based on sound science. When you randomize, you lose this level of assurance and admit that you are leaving their treatment choice up to the flip of a coin.
 
-If you have the ability to assign patients to receive a treatment or not, you may choose to control the assignment yourself rather than leaving the assignment to a flip of a coin. If you do this carefully, you can produce evidence that can be just as persuasive as a randomized trial, but you avoid the many limitations associated with randomization.
+This paper will not cover observational studies, those where the choice of who gets what is totally out of control of the researcher. Pandis (2024) provides a nice overview of observational studies and contrasts them to randomized studies.
+
+This paper will focus on something in between a randomized study and an observational study. When you have the ability to assign patients to receive a treatment or not, you may choose to control the assignment yourself rather than leaving the assignment to a flip of a coin. If you do this carefully, you can produce evidence that can be just as persuasive as a randomized trial, but you avoid the many limitations associated with randomization.
 
 ## The infamous historical control
 
@@ -43,7 +45,7 @@ A close cousin to the historical control design is the before-and-after design a
 
 A Korean study of Basic Life Support (BLS) training during Dental School evaluated 98 students who received this training during their third year of dental school (Kim 2020). The researchers gave them a test two years after grauduation to see how much they remembered. These students did poorly, scoring an average of 56 points out of 100. Then they provided a refresher course in BLS and gave the test again. The average score increased to 81 points. The authors concluded that it was "necessary to update BLS training periodically and also implement more effective education methods to maintain BLS knowledge and practical skills."
 
-In the before-and-after design, you have to make the same untestable assumption assumed earlier. You must assume that untreated patients would not have shown as much improvement as you saw among your treated patients. In this study, you might safely conclude that the knowledge level would not have changed much and if anything would probably have declined further over time without the refresher course. This seems quite reasonable in this setting. In other settings, this untestable assumption might fail for the same set of reasons that the historical controls trial failed.
+In the before-and-after design, you have to make the same untestable assumption assumed earlier. You must assume that untreated patients would not have shown as much improvement as you saw among your treated patients. In this aforementioned study, you might safely conclude that the knowledge level would not have changed much and if anything would probably have declined further over time without the refresher course. This seems quite reasonable in this setting. In other settings, this untestable assumption might fail for the same set of reasons that the historical controls trial failed.
 
 ## Quasi-experiments to the rescue
 
@@ -243,6 +245,8 @@ Figure 5. Hypothetical outcome of a stepped wedge design
 
 A study at a large teaching hospital examined the effectiveness of a new care protocol that encouraged nurses to provide better oral health care to patients in their wards (Schafthuizen 2023). The intervention was a seven step Implementation of Change Model for provision of good oral health care. The researchers divided the wards into four groups that were provided this intervention at separate times. They measured adherence to the protocol using a nine item questionnaire given to patients at five observation times bracketing each intervention. The research team also assessed the nurses' knowledge and attitude towards oral care, but only at the beginning and very end of the study. Knowledge did show a small but statistically significant increase from an average of 69 points (out of 100) to 72 points. Attitudes remained unchanged, and adherence actually declined from 60% at the start of the study to 35% at the end. The researchers did not have a good suggestion for this decline and suggested an evaluation of barriers and facilitators was needed.
 
+There are parallels and differences between the stepped wedge design and the interrupted time series design with multiple phases. The former divides patients into random groups and allocates them at different times. The latter divides the intervention into phases and allocates the phases at different times. See Fok (2105) for a more detailed comparison.
+
 ## Regression discontinuity
 
 In all of the previous examples, everybody gets the intervention, sometimes with multiple evaluations, sometimes with the intervention broken into phases, and sometimes with the intervention staggered over time. Another type of design, the regression discontinuity design, examines treatment allocation where a qualifying variable is used to decide controls who gets the intervention. This qualifying variable can be (and often is) associated with the outcome.
@@ -287,15 +291,11 @@ I'm a professional statistician and it may seem to you like a betrayal of everyt
 
 Sometimes an intervention is implemented by someone higher on the food chain than the researcher. A nation might pass a law providing new benefits for dental care or impose restrictions during the pandemic. A court ruling in a liability case leads to major changes in dental practice. A state licensing board changes certification requirements. These settings fit naturally into an interrupted time series design. For a law, court ruling, or certification change that is phased in, even better. 
 
-The astute reader might note here that an intervention not under the direct control of the researcher is no longer an experiment, but would be more accurately described as an observational study. True enough, but the methods mentioned here will still be appropriate for these types of observational studies.
-
-Some interventions cannot be applied to one individual and not another. Examples include physical remodeling, software updates, and community-wide publicity campaigns. Sometimes an intervention is complex enough that care givers will have to make the changes for every patient rather than a randomly selected half.
-
-Sometimes, ethical or practical concerns require that everyone gets the new treatment, but you have control over the timing for each individual. Here a wait list control group or a stepped wedge design can help. These designs also help when patients will demand a new intervention, but they would tolerate a delay. 
+The astute reader might note here that an intervention not under the direct control of the researcher is no longer an experiment, but would be more accurately described as an observational study. The dividing line between quasi-experimental studies and observational studies is quite fuzzy and the dividing line among the various quasi-experimental designs is even fuzzier. One research team developed a checklist of seven questions to help categorize the type of research design, including all the ones described here and more (Reeves 2017). In any case, the categorization of research designs is less important than the careful use of extra information that these designs provide you.
 
 In every one of these settings, though, avoid the temptation of the before-and-after design. If you can't randomize or prefer not to randomize, you have to work harder to produce persuasive evidence. Adding multiple evaluation times, breaking the intervention into phases or evaluating both the addition and withdrawal of an intervention are all changes that take a lot more time and energy. Even so, the investment is often worth the trouble.
 
-If an intervention is not mandated by a higher authority, if it is easy to deliver alongside a control, randomization may be your best choice. Always make sure there is reasonable acceptance of randomization among both the caregivers and the patients. 
+Don't eliminate randomization, of course, as a method in your research toolbox. A randomized controlled trial is great if it is easy to apply individually and if the the individual patients (and their care providers) are willing to accept it. 
 
 
 ## Bibliography
@@ -306,6 +306,8 @@ Campbell, D. T. (1988). Methodology and epistemology for social science: Selecte
 
 Davidson KW, Silverstein M, Cheung K, Paluch RA, Epstein LH. Experimental Designs to Optimize Treatments for Individuals: Personalized N-of-1 Trials. JAMA Pediatr. 2021 Apr 1;175(4):404-409. doi: 10.1001/jamapediatrics.2020.5801.
 
+Fok CC, Henry D, Allen J. Research Designs for Intervention Research with Small Samples II: Stepped Wedge and Interrupted Time-Series Designs. Prev Sci. 2015 Oct;16(7):967-77. doi: 10.1007/s11121-015-0569-4. PMID: 26017633; PMCID: PMC4581909.
+
 Houston TK, Richman JS, Coley HL, Ray MN, Allison JJ, Gilbert GH, Gordon JS, Kiefe CI; DPBRN Collaborative Group. Does delayed measurement affect patient reports of provider performance? Implications for performance measurement of medical assistance with tobacco cessation: a Dental PBRN study. BMC Health Serv Res. 2008 May 8;8:100. doi: 10.1186/1472-6963-8-100.
 
 Jones KM, Swearer SM, Friman PC. Relax and try this instead: abbreviated habit reversal for maladaptive self-biting. J Appl Behav Anal. 1997 Winter;30(4):697-9. doi: 10.1901/jaba.1997.30-697.
@@ -315,6 +317,10 @@ Kim SY, Shin D, Kim HJ, Karm MH. Changes of knowledge and practical skills befor
 Nishi H, Horikoshi S, Yoshida T, Fukushima N, Oshita K, Munenaga S, Edahiro T, Ureshino H, Shigeishi H, Yoshioka Y, Konishi M, Ide N, Ogawa Y, Marukawa R, Shintani T, Ino N, Kajiya M, Kakimoto N, Ohge H, Ichinohe T, and Kawaguchi H. Efficacy of Low-Level Laser Therapy for Oral Mucositis in Hematologic Patients Undergoing Transplantation: A Single-Arm Prospective Study. J Pers Med. 2023 Nov; 13(11): 1603. doi: 10.3390/jpm13111603.
 
 Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9.
+
+Pandis N, Tu YK, Fleming PS, Polychronopoulou A. Randomized and nonrandomized studies: complementary or competing? Am J Orthod Dentofacial Orthop. 2014 Nov;146(5):633-40. doi: 10.1016/j.ajodo.2014.08.002. Epub 2014 Oct 28. PMID: 25439214.
+
+Reeves BC, Wells GA, Waddington H. Quasi-experimental study designs series-paper 5: a checklist for classifying studies evaluating the effects on health interventions-a taxonomy without labels. J Clin Epidemiol. 2017 Sep;89:30-42. doi: 10.1016/j.jclinepi.2017.02.016.
 
 Roberts ET, Mellor JM, McInerny MP, Sabik LM. Effects of a Medicaid dental coverage "cliff" on dental care access among low-income Medicare beneficiaries. Health Serv Res. 2023 Jun;58(3):589-598. doi: 10.1111/1475-6773.13981.
 
