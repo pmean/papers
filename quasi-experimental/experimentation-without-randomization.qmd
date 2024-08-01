@@ -5,6 +5,8 @@ format:
     embed-resources: true
 ---
 
+Author guidelines: https://onlinelibrary.wiley.com/page/journal/13652842/homepage/forauthors.html
+
 ## Introduction
 
 They say that randomized control trials are easy. Hand out drugs or placebos based on a coin flip, wait three years and count the number of dead bodies in each group. Well, maybe it is not that easy, but the methodology is well established. 
@@ -49,7 +51,7 @@ In the before-and-after design, you have to make the same untestable assumption 
 
 ## Quasi-experiments to the rescue
 
-You can improve the credibility of studies where the treatment and control groups are separated by time. These are not perfect studies. There are no perfect studies. They can compete, however, on an even playing field with randomized studies. They can provide evidence that is almost as persuasive, as a randomized trial and don't suffer from the well-known limitations of randomized trials.
+You don't have to settle for the weak assumption-ridden inferences from these simple designs. You have to work quite a bit harder, but you can produce research designs that have just as much credibility as a randomized trial but without all the baggage that randomization carries with it. 
 
 Many of these approaches fall into a category of research known as quasi-experimental designs. There are varying definitions for quasi-experimental designs, but a common one is a research design where the researchers have experimental control, meaning having the ability to assign treatments and controls, but decline to use randomization to allocate patients to these groups. 
 
@@ -88,7 +90,7 @@ A study of poor compliance with clear aligner therapy (Timm 2022) monitored pati
 
 ## Phased intervetions
 
-While a flat-jump-flat pattern for an interrupted time series is good news, you are still left with one concern. Did some other change, occurring at the same time as your intervention, interfere with your experiment? It could work both ways. It could produce a false positive result or it could mask something real.
+While a flat-jump-flat pattern for an interrupted time series is good news, you are still left with one concern. Did some other change, occurring at the exact same time as your intervention, interfere with your experiment?
 
 You can rule out this concern if your intervention is one that can be split and implemented in different phases. If so, make multiple evaluations, implement one phase of the intervention, make additional evaluations, implement a second phase of the intervention, and so forth.
 
@@ -114,9 +116,9 @@ title("Bad news")
 
 Figure 2. Two hypothetical outcomes for a for an interrupted time series design with phases.
 
-If there is an adverse trend prior to the first intervention, examine whether that trend is reduced after each intervention point. You have to work harder if there are trends, but the work is more tedious than difficult.
+If there is an adverse trend prior to the first intervention, examine whether that trend is reduced after each intervention point. If there are trends at the start, you have to work harder. The work, thankfully, is more tedious than difficult.
 
-It's not easy to find an example of phased interventions in dental research, but there are good examples in other disciplines. A large teaching hospital implemented three changes to their electronic health record system to reduce inappropriate red blood cell (RBC) and platelet transfusion (Atia 2022). In November 2012, the system displayed a warning was shown when clinicians prescribed RBC for patients who had hemoglobin greater than 100 g/L. In May 2015, a lower threshold triggered the warning and the system displayed the most recent hemoglobin level and date. In May 2016, the threshold for hemoglobin was lowered again. The results were mixed, with statistical significant drops at some but not all of the intervention times. The results also varied by the type of clinic.
+It's not easy to find an example of phased interventions in dental research, but there are good examples in other disciplines. A large teaching hospital implemented three changes to their electronic health record system to reduce inappropriate red blood cell (RBC) and platelet transfusion (Atia 2022). In November 2012, the system displayed a warning was shown when clinicians prescribed RBC for patients who had hemoglobin greater than 100 g/L. In May 2015, a lower threshold triggered the warning and the system displayed the most recent hemoglobin level and date. In May 2016, the threshold for hemoglobin was lowered again. The results were mixed, with statistically significant drops at some but not all of the intervention times. The results also varied by the type of clinic.
 
 This will always be an issue with this type of design. Certainly, a flat-jump-flat-jump-flat pattern is very persuasive positive evidence. Equally certainly, a pattern with no jumps and no changes in trend is very persuasive negative evidence. But interpretation becomes difficult when you see a jump at only one of the three intervention points. It could be a negative finding because the one jump might have been caused by something other than the intervention. It could just as easily represent an intervention where only one of the three phases was truly effective.
 
@@ -173,7 +175,7 @@ The simplest concept is to evaluate every patient at baseline, randomly assign h
 
 If the researchers have sufficient resources, the study does not have to end there. When the waiting list control patients complete their intervention, evaluate everyone a third time. Does the waiting list control group show an improvement late that is comparable to those who received the intervention early? Do the intervention patients show a long term persistence in the effectiveness of their intervention or is there some backsliding?
 
-Figure 4 shows a hypothetical outcome of a waiting list control design. The two groups 
+Figure 4 shows a hypothetical outcome of a waiting list control design. The two groups are comparable at first measurement. The intervention jumps ahead at the second measurement, but the control group, getting the intervention after a waiting period catches back up.
 
 ```{r time-series-9, echo=FALSE, comment="", fig.height=4}
 x <- 1:3
@@ -196,7 +198,6 @@ text(1:3, y2, "W", col="red")
 axis(side=1, at=x, labels=paste0("O", x))
 ```
 
-## Randomizing time
 =======
 Figure 4. 
 
@@ -277,7 +278,7 @@ A regression discontinuity design was used to examine the extent to which Medica
 
 ## How many evaluation points do you need?
 
-For an interrupted time series or some variation of this design, there is no easy answer to how many evaluation points you might need. Certainly you can't really assess a flat pattern without at least three data points. If you are running a complex model over time including estimation of correlations among the time measurements, a much larger sample (25 or 50) might be needed. 
+For an interrupted time series or some variation of this design, there is no easy answer to how many evaluation points you might need. Certainly you can't really assess a flat pattern without at least three data points. If you are running a complex model over time including estimation of autoregressive correlations among the time measurements, a much larger sample might be needed. The recommendation, though, of 100 (Shadish 2002, page 173) is almost certainly excessive. While such a sample size might be required for fine tuning the autoregressive terms, a model without such fine tuning should still be able to accurately identify when jumps in the time series occur.
 
 Concern about cyclic patterns, might also require a larger number of evaluation points. For monthly evaluations, a couple of years would be nice so you can factor out effects due to seasons of the year. For daily evaluations, measure for at least a couple of weeks so you can rule out any "Hump Day" or "Thank God It's Friday" effects.
 
@@ -293,6 +294,8 @@ Sometimes an intervention is implemented by someone higher on the food chain tha
 
 The astute reader might note here that an intervention not under the direct control of the researcher is no longer an experiment, but would be more accurately described as an observational study. The dividing line between quasi-experimental studies and observational studies is quite fuzzy and the dividing line among the various quasi-experimental designs is even fuzzier. One research team developed a checklist of seven questions to help categorize the type of research design, including all the ones described here and more (Reeves 2017). In any case, the categorization of research designs is less important than the careful use of extra information that these designs provide you.
 
+Reporting guidelines for these research designs are limited (Hategeka 2020). The SQUIRE guidelines for quality improvement studies or possibly the TREND guidleines for nonrandomized evaluations (Des Jarlais 2004) may provide some limited guidance.
+
 In every one of these settings, though, avoid the temptation of the before-and-after design. If you can't randomize or prefer not to randomize, you have to work harder to produce persuasive evidence. Adding multiple evaluation times, breaking the intervention into phases or evaluating both the addition and withdrawal of an intervention are all changes that take a lot more time and energy. Even so, the investment is often worth the trouble.
 
 Don't eliminate randomization, of course, as a method in your research toolbox. A randomized controlled trial is great if it is easy to apply individually and if the the individual patients (and their care providers) are willing to accept it. 
@@ -306,7 +309,11 @@ Campbell, D. T. (1988). Methodology and epistemology for social science: Selecte
 
 Davidson KW, Silverstein M, Cheung K, Paluch RA, Epstein LH. Experimental Designs to Optimize Treatments for Individuals: Personalized N-of-1 Trials. JAMA Pediatr. 2021 Apr 1;175(4):404-409. doi: 10.1001/jamapediatrics.2020.5801.
 
+Des Jarlais DC, Lyles C, Crepaz N, Trend Group. Improving the reporting quality of nonrandomized evaluations of behavioral and public health interventions: the TREND statement. Am J Public Health. 2004;94(3):361-366.
+
 Fok CC, Henry D, Allen J. Research Designs for Intervention Research with Small Samples II: Stepped Wedge and Interrupted Time-Series Designs. Prev Sci. 2015 Oct;16(7):967-77. doi: 10.1007/s11121-015-0569-4. PMID: 26017633; PMCID: PMC4581909.
+
+Hategeka C, Ruton H, Karamouzian M, Lynd LD, Law MR. Use of interrupted time series methods in the evaluation of health system quality improvement interventions: a methodological systematic review. BMJ Glob Health. 2020 Oct;5(10):e003567. doi: 10.1136/bmjgh-2020-003567.
 
 Houston TK, Richman JS, Coley HL, Ray MN, Allison JJ, Gilbert GH, Gordon JS, Kiefe CI; DPBRN Collaborative Group. Does delayed measurement affect patient reports of provider performance? Implications for performance measurement of medical assistance with tobacco cessation: a Dental PBRN study. BMC Health Serv Res. 2008 May 8;8:100. doi: 10.1186/1472-6963-8-100.
 
@@ -315,6 +322,8 @@ Jones KM, Swearer SM, Friman PC. Relax and try this instead: abbreviated habit r
 Kim SY, Shin D, Kim HJ, Karm MH. Changes of knowledge and practical skills before and after retraining for basic life support: Focused on students of Dental School. Int J Med Sci. 2020 Oct 22;17(18):3082-3090. doi: 10.7150/ijms.47343.
 
 Nishi H, Horikoshi S, Yoshida T, Fukushima N, Oshita K, Munenaga S, Edahiro T, Ureshino H, Shigeishi H, Yoshioka Y, Konishi M, Ide N, Ogawa Y, Marukawa R, Shintani T, Ino N, Kajiya M, Kakimoto N, Ohge H, Ichinohe T, and Kawaguchi H. Efficacy of Low-Level Laser Therapy for Oral Mucositis in Hematologic Patients Undergoing Transplantation: A Single-Arm Prospective Study. J Pers Med. 2023 Nov; 13(11): 1603. doi: 10.3390/jpm13111603.
+
+Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process. BMJ Qual Saf. 2016 Dec;25(12):986-992. doi: 10.1136/bmjqs-2015-004411.
 
 Ohbayashi Y, Imataki O, Uemura M, Takeuchi A, Aoki S, Tanaka M, Nakai Y, Nakai F, Miyake M. Oral microorganisms and bloodstream infection in allogeneic hematopoietic stem cell transplantation. Clin Oral Investig. 2021 Jul;25(7):4359-4367. doi: 10.1007/s00784-020-03749-9.
 
@@ -326,6 +335,8 @@ Roberts ET, Mellor JM, McInerny MP, Sabik LM. Effects of a Medicaid dental cover
 
 Schafthuizen L, Spruit-Bentvelzen L, van Dijk M, van Rosmalen J, Ista E. Implementation of a nursing oral health care protocol in a university teaching hospital: A cluster-randomized stepped-wedge design. Int J Dent Hyg. 2023 Sep 18. doi: 10.1111/idh.12748. Epub ahead of print. PMID: 37722075.
 
+Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). Experimental and quasi-experimental designs for generalized causal inference. Houghton, Mifflin and Company.
+
 Timm LH, Farrag G, Wolf D, Baxmann M, Schwendicke F. Effect of electronic reminders on patients' compliance during clear aligner treatment: an interrupted time series study. Sci Rep. 2022 Oct 5;12(1):16652. doi: 10.1038/s41598-022-20820-5.
 
-The Lucifer Effect: Understanding How Good People Turn Evil, by Philip Zimbardo.
+Zimbardo P. The Lucifer Effect: Understanding How Good People Turn Evil.
