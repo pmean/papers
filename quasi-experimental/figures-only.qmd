@@ -1,0 +1,137 @@
+---
+title: "Experimentation without randomized controls"
+format: 
+  docx:
+    embed-resources: true
+---
+
+
+```{r time-series-2, echo=FALSE, comment=""}
+x <- 1:6
+y1 <- c(1.1, 1.3, 1.2, 2.2, 2.1, 2.3)
+y2 <- c(1.1, 1.4, 1.3, 1.8, 2.2, 2.3)
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+plot(x, y1, axes=FALSE, type="b", ylim=c(0.9, 2.4))
+text(3.5, 1, "X")
+segments(3.5, 1.1, 3.5, 2.4, lty="dotted", col="gray")
+axis(side=1, at=1:6, labels=paste0("O", 1:6))
+title("Good news")
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.9, 2.4))
+text(3.5, 1, "X")
+segments(3.5, 1.1, 3.5, 2.4, lty="dotted", col="gray")
+axis(side=1, at=1:6, labels=paste0("O", 1:6))
+title("Bad news")
+```
+
+Figure 1. Two hypothetical outcomes from an interrupted time series design.
+
+
+```{r time-series-4, echo=FALSE, comment=""}
+x <- 1:10
+y1 <- c(1.1, 1.3, 2.4, 2.2, 2.3, 3.1, 3.4, 3.2, 4.3, 4.2)
+y2 <- c(1.1, 1.7, 1.6, 2.1, 2.7, 2.9, 3.3, 3.9, 4.3, 4.2)
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+plot(x, y1, axes=FALSE, type="b", ylim=c(0.7, 4.4))
+i1 <- c(2.5, 5.5, 8.5) 
+text(i1, 1, paste0("X", 1:3))
+segments(i1, 1.1, i1, 4.4, lty="dotted", col="gray")
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+title("Good news")
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.7, 4.4))
+text(i1, 1, paste0("X", 1:3))
+segments(i1, 1.1, i1, 4.4, lty="dotted", col="gray")
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+title("Bad news")
+```
+
+Figure 2. Two hypothetical outcomes for a for an interrupted time series design with phases.
+
+
+```{r time-series-8, echo=FALSE, comment=""}
+x <- 1:3
+y1 <- c(1.1, 2.3, 1.3)
+y2 <- c(1.2, 2.6, 3.2)
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+plot(x, y1, axes=FALSE, type="b", ylim=c(0.7, 3.5))
+text(1.5, 0.9, "X")
+segments(1.5, 1.1, 1.5, 3.5, lty="dotted", col="gray")
+text(2.5, 0.9, "-X")
+segments(2.5, 1.1, 2.5, 3.5, lty="dotted", col="gray")
+axis(side=1, at=x, labels=paste0("O", x))
+title("Good")
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.7, 3.5))
+text(1.5, 0.9, "X")
+segments(1.5, 1.1, 1.5, 3.5, lty="dotted", col="gray")
+text(2.5, 0.9, "-X")
+segments(2.5, 1.1, 2.5, 3.5, lty="dotted", col="gray")
+axis(side=1, at=x, labels=paste0("O", x))
+title("Bad")
+```
+
+Figure 3. Two hypothetical results from a withdrawal design
+
+```{r time-series-9, echo=FALSE, comment="", fig.height=4}
+x <- 1:3
+y1 <- c(1.1, 2.3, 2.2)
+y2 <- c(1.3, 1.2, 2.1)
+par(mar=c(2.6, 0.6, 1.6, 0.1))
+plot(x, y1, axes=FALSE, type="n", ylim=c(0.7, 4.5))
+
+text(1.5, 2.9, "X")
+segments(1.5, 3.0, 1.5, 4.5, lty="dotted", col="gray")
+segments(1, y1[1]+2, 2, y1[2]+2, lty="solid", col="darkgreen")
+segments(2, y1[2]+2, 3, y1[3]+2, lty="dotted", col="darkgreen")
+text(1:3, y1+2, "I", col="darkgreen")
+
+text(2.5, 0.9, "X")
+segments(2.5, 1.0, 2.5, 2.5, lty="dotted", col="gray")
+segments(1, y2[1], 2, y2[2], lty="solid", col="red")
+segments(2, y2[2], 3, y2[3], lty="dotted", col="red")
+text(1:3, y2, "W", col="red")
+axis(side=1, at=x, labels=paste0("O", x))
+```
+
+Figure 4. Hypothetical result of a waiting list control group
+
+```{r time-series-10, echo=FALSE, comment=""}
+x <- 1:10
+y1 <- c(1.1, 1.3, 2.4, 2.2, 2.3, 2.2, 2.2, 2.2, 2.1, 2.2)
+y2 <- c(1.2, 1.3, 1.2, 1.1, 1.2, 2.3, 2.4, 2.2, 2.3, 2.3)
+y3 <- c(1.3, 1.2, 1.1, 1.3, 1.1, 1.3, 1.1, 1.2, 2.3, 2.1)
+par(mar=c(2.6, 0.6, 1.6, 0.1))
+
+plot(x, y1, axes=FALSE, type="n", ylim=c(0.9, 6.5))
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+
+text(2.5, 0.9, "X")
+segments(2.5, 1.0, 2.5, 2.5, lty="dotted", col="gray")
+lines(x, y1, col="orange", lty="dotted")
+lines(x[2:3], y1[2:3], col="orange", lty="solid")
+text(x, y1, "1", col="orange")
+
+text(5.5, 2.9, "X")
+segments(5.5, 3.0, 5.5, 4.5, col="gray")
+lines(x, y2+2, col="blue", lty="dotted")
+lines(x[5:6], y2[5:6]+2, col="blue", lty="solid")
+text(x, y2+2, "2", col="blue")
+
+text(8.5, 4.9, "X")
+segments(8.5, 5.0, 8.5, 6.5, col="gray")
+lines(x, y3+4, col="green", lty="dotted")
+lines(x[8:9], y3[8:9]+4, col="green", lty="dotted")
+text(x, y3+4, "3", col="green")
+```
+
+Figure 5. Hypothetical outcome of a stepped wedge design
+
+![](images/regression-discontinuity-01.png)
+
+Figure 6. Hypothetical data showing a relationship between a qualifying variable and a health outcome. 
+
+![](images/regression-discontinuity-02.png)
+
+Figure 7. Allocation of patients to the intervention based on the qualifying variable.
+
+![](images/regression-discontinuity-03.png)
+
+Figure 8. Removal of patients at the extremes.
