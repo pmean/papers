@@ -1,0 +1,15 @@
+---
+title: "Cover letter"
+date: 2024-08-02
+format: 
+  docx:
+    embed-resources: true
+---
+
+## Greetings!
+
+I am submitting this manuscript at the request of Dr. Alan Glaros for a special issue: Innovations in Methodology: Promises and Pitfalls.
+
+Sincerely,
+
+Stephen D. Simon
