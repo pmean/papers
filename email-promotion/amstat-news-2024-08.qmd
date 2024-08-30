@@ -4,31 +4,31 @@ author: "Steve Simon"
 format: docx
 ---
 
-If you want to start an independent consulting practice, congratulations. It's a different experience with many rewards and many challenges. The biggest challenge, I have been told many times, is finding new clients for your consulting business.
+If you want to start an independent consulting practice, congratulations. It's a different experience with its rewards and its challenges. The biggest challenge, I have been told many times, is finding new clients for your consulting business.
 
 There are lots of ways to do this, but I want to focus on one area, using emails. This needs to be done carefully, of course. You don't want to come across like the obnoxious insurance salesman, Ned Ryerson, in the movie Groundhog Day. Come on too strong and too often and you will lose your audience. You don't want your emails to come across as spams.
 
 ## Birth announcements
 
-The day that you decide to hang out up your shingle and starting taking on clients, send out a birth announcement. Tell everyone, hey I've got a new gig. I'm now the proud owner and sole proprietor of P.Mean Consulting, an independent consulting business.
+The day that you decide to hang out your shingle and starting taking on clients, send out a birth announcement. Tell everyone, hey I've got a new gig. I'm now the proud owner and sole proprietor of P.Mean Consulting, an independent consulting business.
 
 You could add that you are looking for customers, but you don't really have to. It's implied.
 
-Now send this birth announcement out to all your friends and relatives. This is a time where it is safe to be aggressive. Everyone loves to hear about new careers and new opporunities. Your second cousin twice removed who works odd construction jobs doesn't need a consultant, but she might know a friend who does.
+Now send this birth announcement out to all your relatives. Send it to your all your teachers. Send it to your friends from college, your friends from high school, and your kindergarten playmates if you are still in touch. This is a time where it is safe to be aggressive. Everyone loves to hear about new careers and new opportunities. Your second cousin twice removed who works odd construction jobs doesn't need a consultant, but she might know a friend who does.
 
-When someone sends out a congratulations reply, you can follow up with a brief thanks stating that you only have two customers so far but hope to build up a strong client base.
+When someone sends out a congratulations reply, you can follow up with a brief thanks. Mention how it is going. If you already have one or two customers, share a few details so they will know the sort of clients that you want to work with.
 
-Now you only get one shot to bug your second cousin twice removed. But for people closer to you, you might send out an anniversary announcement. Write that your new consulting practice is now one year old and talk briefly about what you've done in the past year.
+Now you only get a single shot to bug your second cousin twice removed. But for people closer to you, you might send out an anniversary announcement. Write that your new consulting practice is now one year old and talk briefly about what you've accomplished in the past year. This is another chance to help them understand the sort of work that you can do.
 
 ## Branding your emails
 
-Every email that you send out on any topic can offer a reminder of your consulting business. First, get your own domain name for your email. Using a gmail account screams "Unserious!" My email account (mail at pmean.com) costs me a bit of money every month, but it is a tax write-off.
+Emails that you send out on any topic can offer another opportunity to remind everyone what you do. First, get your own domain name for your email that reflects your company name. Using a gmail account screams "Unserious!" My email account (mail at pmean.com) costs me a bit of money every month, but it is a tax write-off.
 
-Set your email system to include a signature file that reminds people what you do for a living. Something like Steve Simon, P.Mean Consulting. You might add a second line with a motto (Professor Mean--He's not just your average professor) or a link to your company website (www.pmean.com).
+Set your email system to include a signature file that provides another reminder of what you do for a living. Something like Steve Simon, P.Mean Consulting. You might add a second line with a motto (we're more than your average company) or a link to your company website (www.pmean.com).
 
 Don't use more than two lines for your signature file. Long signature files are a big turn-off for some of your colleagues.
 
-There's a second place in your email system that most people forget. Customize how your name appears to promote any credentials you have or to repeat the name of your company. So you are not just sending messages as "Steve Simon" but as "Steve Simon, PhD Statistician" or "Steve Simon, P.Mean Consulting". I generally don't like to put PhD after my name, but that degree does make a difference to some of your clients. If you have taken the trouble to get an ASA designation of PStat or GStat, go ahead and add that after your name.
+There's a yet another place in your email system that most people forget. Customize how your name appears. Use it to promote any credentials you have or to repeat the name of your company. So you are not just sending messages as "Steve Simon" but as "Steve Simon, PhD Statistician" or "Steve Simon, P.Mean Consulting". I generally don't like to put PhD after my name, but that degree does make a difference to some of your clients. If you have taken the trouble to get an ASA designation of PStat or GStat, go ahead and add that after your name.
 
 The big advantage of including your credentials or company as part of your email name is that it appears both when you send out an email and when someone replies to your email. Yet it is subtle enough that no one will brand you a spammer.
 
@@ -48,16 +48,16 @@ If appropriate, add a simple request, such as asking for the slides for someone'
 
 One big reason to send an email is to make sure they have your email address, even if they misplace your card. You also have a record of their email address in your sent folder should you need it six months later.
 
-Don't include a direct solicitation. Saying that you are looking for new clients is not needed if you have information about your consulting business in your email name and/or in your signature file.
+Don't include a direct solicitation. It's enough if you have information about your consulting business in your email name and/or in your signature file.
 
 ## How and when to send follow-up emails
 
-You can't bombard your contacts with weekly or monthly emails. But you can and should find a reason to recontact them on an annual or semi-annual basis. Find a news article, a webpage, or a journal publication that you know they are interested and say, hey I saw this interesting article and thought of you. Don't include a direct solicitation; it cancels out the good vibes that you were hoping to build with the resource you just shared.
+You can't bombard your contacts with weekly or monthly emails. But you can and should find a reason to recontact them on an annual or semi-annual basis. Find a news article, a webpage, or a journal publication that you think they might like and say, hey I saw this and thought of you. Don't include a direct solicitation; it cancels out the good vibes that you were hoping to build with the resource you just shared.
 
-Another opportunity arises when you just finished work with one of your first few clients. Wait a week or a month and send a short note. Tell them how much you enjoyed working with them. Don't go overboard, but if you can't thing of anything you like about working with clients on difficult statistics problems, you're in the wrong business. Here you can be a bit more direct. Let them know that you'd love working with them again if the opportunity arises. Also ask them if they know anyone else who might need similar help.
+Another opportunity arises when you just finished work with one of your first few clients. Wait a week or a month and send a short note. Tell them how much you enjoyed working with them. Don't go overboard, but if you can't think of anything you like about working with clients on difficult statistics problems, you're in the wrong business. Here you can be a bit more direct. Let them know that you'd love working with them again if the opportunity arises. Also ask them if they know anyone else who might need similar help.
 
 ## Isn't email becoming a dinosaur?
 
-Now, a lot has been written about how Gen Z is abandoning email for other forms of electronic communication, so you should also consider other options. I am not a big fan of LinkedIn, but my profile there has attracted several clients. There may be some slack channels associated with professional users groups that you could join. You might use X (formerly Twitter) to send out regular updates instead of using an email newsletter. A blog is also worth considering. It's hard to keep up with all the new systems out there, of course, and don't try to spread yourself too thin. Just pick one or two alternatives to supplement your email efforts.
+Now, a lot has been written about how Gen Z is abandoning email for other forms of electronic communication, so you should also consider other options. I am not a big fan of LinkedIn, but my profile there has attracted several clients. There may be some slack channels associated with professional users groups that you could join. A blog that you post regularly on or posts that you send out regularly on X (formerly Twitter) are a good substitute for an  email newsletter. It's hard to know about, much less keep up with all the new systems out there. Don't try to spread yourself too thinly. Just pick one or two alternatives to supplement your email efforts.
 
-Email still represents a powerful way to promote your consulting business. You need to be careful with your timing. it will backfire if you send too many emails or emails that don't have a concurrent purpose. Use emails for birth announcements, for a newsletter, after a business card exchange, and/or for a careful follow-up.
+Email still represents a powerful way to promote your consulting business. You need to be careful with your timing. it will backfire if you send too many emails or emails that only serve as a shameless solicitation. Use emails for birth announcements, for a newsletter, after a business card exchange, or for a careful follow-up.
