@@ -7,7 +7,7 @@ format:
 
 Stephen D. Simon^1^
 
-^1^Department of Biomedical and Health Informatics, School of Medicine, University of Missouri-Kanas City, Kansas City Missouri
+^1^Department of Biomedical and Health Informatics, School of Medicine, University of Missouri-Kansas City, Kansas City Missouri
 
 ## Abstract
 
