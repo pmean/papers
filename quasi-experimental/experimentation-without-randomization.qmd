@@ -17,7 +17,7 @@ The quasi-experimental design is an underutilized research methodology. It works
 
 They say that randomized control trials are easy. Hand out drugs or placebos based on a coin flip, wait three years and count the number of dead bodies in each group. Well, maybe it is not that easy, but the methodology is well established. 
 
-Randomization of individual patients is considered the gold standard of research. It has several major advantages over other approaches to research. Randomization prevents covariate imbalance, both among measured and unmeasured covariates. Frail patients and hardy patients are allocated more or less evenly between the treatment and control group. Patients who are terrible about showing up at their monthly evaluations are allocated more or less evenly. Patients who brush their teeth obsessively three or four times a day are allocated more or less evenly.
+Randomization of individual patients is considered the gold standard of research. It has several major advantages over other approaches to research. Better than almost any other approach, Randomization reduces the likelihood of sizable covariate imbalances, both among measured and unmeasured covariates. Thanks to the law of large numbers, frail patients and hardy patients are allocated more or less evenly between the treatment and control group. Patients who are terrible about showing up at their monthly evaluations are allocated more or less evenly. Patients who brush their teeth obsessively three or four times a day are allocated more or less evenly.
 
 Randomization does not have to be at the individual patient level. You might use cluster randomization where you select a large number of dental practices and randomly assign half of the locations to try a new intervention on all of their patients. All of the patients at the other clinic serve as controls. Cluster randomization requires special care during data analysis and often require matching or other controls. Nevertheless, cluster randomized trials have all the same benefits of individual randomization.
 
@@ -25,9 +25,11 @@ There are times, however, when you should reject individual or cluster randomiza
 
 Randomization is expensive. You have to set up an elaborate logistical framework to implement randomization. Skip all that stuff and you can get a larger sample size for the same amount of research funding.
 
+Randomization does not prevent crossover and contamination. If you randomly assigned different books to students in your class, the impact of the book assignment would be affected by the tendency of students to study together in groups.
+
 Randomization is unpopular. In many settings, things are already messy enough and you don't need the extra hassle of switching back and forth between two different treatment protocols. This is often true in emergency care settings where the distraction caused by randomization is quite unwelcome.
 
-Randomization is unnatural. You are used to giving advice about oral health in an assured voice that lets your patients know that your recommendations are based on sound science. When you randomize, you lose this level of assurance and admit that you are leaving their treatment choice up to the flip of a coin.
+Randomization is unnatural. You are used to giving advice about oral health in an assured voice that lets your patients know that your recommendations are based on sound science. When you randomize, you lose this level of assurance. While this is true in just about any research study, there is something especially off-putting about telling your patient that you are leaving their treatment choice up to the flip of a coin.
 
 This paper will not cover observational studies, those where the choice of who gets what is totally out of control of the researcher. See^1^ for a nice overview of observational studies and a contrast to randomized studies.
 
@@ -71,13 +73,13 @@ In a quasi-experimental design, researchers deliberately decline to randomize be
 
 The interrupted time series is a common approach to add rigor without randomization. You need to separate a single "before" evaluation into multiple "before" evaluations and make a similar separation of a single "after" evaluation into multiple "after" evaluations.
 
-Figure 1 shows to possible outcomes for an interrupted time series. Good news for your intervention would be a flat pattern during the multiple evaluations before the intervention, a sudden jump right at the intervention, and a flat pattern for all the evaluations after the intervention. In contrast an upward (or downward) trend at each and every evaluation is very strong negative evidence.
+Figure 1 shows two possible results for an interrupted time series. Good news for your intervention would be a flat pattern during the multiple evaluations before the intervention, a sudden jump right at the intervention, and a flat pattern for all the evaluations after the intervention. In contrast an upward (or downward) trend at each and every evaluation is very strong negative evidence.
 
 ```{r time-series-2, echo=FALSE, comment=""}
 x <- 1:6
 y1 <- c(1.1, 1.3, 1.2, 2.2, 2.1, 2.3)
 y2 <- c(1.1, 1.4, 1.3, 1.8, 2.2, 2.3)
-par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(1, 2))
 plot(x, y1, axes=FALSE, type="b", ylim=c(0.9, 2.4))
 text(3.5, 1, "X")
 segments(3.5, 1.1, 3.5, 2.4, lty="dotted", col="gray")
@@ -94,7 +96,7 @@ Figure 1. Two hypothetical outcomes from an interrupted time series design.
 
 If you detect a slope or trend prior to the intervention, things get a bit more complicated. Look for a jump at the intervention but also look for a change in slope. Either a flattening of a negative trend or an acceleration of an already positive trend is good news for your intervention.
 
-A study of poor compliance with clear aligner therapy^10^ monitored patients biweekly in 2019 prior to the introduction of a system of electronic reminders and feedback. Monitoring continued throughout all of 2020. The second half of 2019 was compared to the second half of 2020, to avoid problems with transitioning and with seasonality. The rate of poor compliance was flat during the second half of 2019, hovering around 25%. The data showed a downward trend in the second half of 2020, leveling off at a much better value of 9% in October 2020. The authors concluded that electronic reminders and feedback effectively reduced poor compliance rates.
+A study of poor compliance with clear aligner therapy^10^ monitored patients biweekly in 2019 prior to the introduction of a system of electronic reminders and feedback. Monitoring continued throughout all of 2020. The second half of 2019 was compared to the second half of 2020, to avoid problems with transitioning and with seasonality, (but do note that the impact of the COVID pandemic between these two time periods). The rate of poor compliance was flat during the second half of 2019, hovering around 25%. The data showed a downward trend in the second half of 2020, leveling off at a much better value of 9% in October 2020. The authors concluded that electronic reminders and feedback effectively reduced poor compliance rates.
 
 ## 2.5 | Phased intervetions
 
@@ -108,7 +110,7 @@ Figure 2. shows two possible results from an interrupted time series with three 
 x <- 1:10
 y1 <- c(1.1, 1.3, 2.4, 2.2, 2.3, 3.1, 3.4, 3.2, 4.3, 4.2)
 y2 <- c(1.1, 1.7, 1.6, 2.1, 2.7, 2.9, 3.3, 3.9, 4.3, 4.2)
-par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(1, 2))
 plot(x, y1, axes=FALSE, type="b", ylim=c(0.7, 4.4))
 i1 <- c(2.5, 5.5, 8.5) 
 text(i1, 1, paste0("X", 1:3))
@@ -138,7 +140,7 @@ In a withdrawal design (sometimes called the ABA design) you start with a contro
 
 A very simple illustration of this is described in Philip Zimbardo's book about his infamous prisoner experiments^12^. He described an experiment (not his experiment) that used a withdrawal design. A researcher wanted to show how anonymity increases the tendency to engage in violent and aggressive actions.
 
-He set up an experiment with school children at a Halloween party and found a simple and clever way to measure their aggressive and competitive behavior. This was assessed at the start of the party, before anyone had donned their costumes. Then the children were asked to put on their costumes. The masks gave the a fair degree of anonymity. Aggression was measured again and it rose.
+He set up an experiment with school children at a Halloween party and found a simple and clever way to measure their aggressive and competitive behavior. This was assessed at the start of the party, before anyone had donned their costumes. Then the children were asked to put on their costumes. The masks gave a fair degree of anonymity. Aggression was measured again and it rose.
 
 But maybe the kids just got rowdier as time wore on. The researchers had an answer to this objection. They evaluated aggression a third time, after asking the children to remove their costumes. When average aggression levels returned to the level seen at first time point, they could rule out some other temporal trend, such as a change induced by the increasing amount of sugar and candy consumed during the party.
 
@@ -258,7 +260,7 @@ There are parallels and differences between the stepped wedge design and the int
 
 ## 2.9 | Regression discontinuity
 
-In all of the previous examples, everybody gets the intervention, sometimes with multiple evaluations, sometimes with the intervention broken into phases, and sometimes with the intervention staggered over time. Another type of design, the regression discontinuity design, examines treatment allocation where a qualifying variable is used to decide controls who gets the intervention. This qualifying variable can be (and often is) associated with the outcome.
+In all of the previous examples, everybody gets the intervention, sometimes with multiple evaluations, sometimes with the intervention broken into phases, and sometimes with the intervention staggered over time. Another type of design, the regression discontinuity design, examines treatment allocation in which a qualifying variable is used by the researchers to decide who gets the intervention. This qualifying variable can be (and often is) associated with the outcome.
 
 You might reserve an intervention for patients based on their score on a measure of illness severity. You might offer free or subsidized care only to patients based on their income. You might admit trainees to a special program based on their score on a qualifying exam.
 
@@ -318,7 +320,7 @@ Interrupted time-series, phased interventions, withdrawal designs, waitling list
 
 In every one of these settings, though, avoid the temptation of the before-and-after design. If you can't randomize or prefer not to randomize, you have to work harder to produce persuasive evidence. Adding multiple evaluation times, breaking the intervention into phases or evaluating both the addition and withdrawal of an intervention are all changes that take a lot more time and energy. Even so, the investment is often worth the trouble.
 
-Don't eliminate randomization, of course, as a method in your research toolbox. A randomized controlled trial is great if it is easy to apply individually and if the the individual patients (and their care providers) are willing to accept it. 
+Don't eliminate randomization, of course, as a method in your research toolbox. A randomized controlled trial is great if it is easy to apply individually and if the individual patients (and their care providers) are willing to accept it. 
 
 ## Bibliography
 
