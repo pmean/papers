@@ -1,0 +1,15 @@
+---
+title: "Cover letter"
+date: 2024-08-02
+format: 
+  docx:
+    embed-resources: true
+---
+
+## Greetings!
+
+I am submitting this revised manuscript for a special issue: Innovations in Methodology: Promises and Pitfalls. With one major exception, I have made changes to every suggestion made by the reviewers. The comments of the second reviewer were very helpful.
+
+Sincerely,
+
+Stephen D. Simon

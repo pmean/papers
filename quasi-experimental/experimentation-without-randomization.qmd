@@ -17,9 +17,9 @@ The quasi-experimental design is an underutilized research methodology. It works
 
 They say that randomized control trials are easy. Hand out drugs or placebos based on a coin flip, wait three years and count the number of dead bodies in each group. Well, maybe it is not that easy, but the methodology is well established. 
 
-Randomization of individual patients is considered the gold standard of research. It has several major advantages over other approaches to research. Better than almost any other approach, Randomization reduces the likelihood of sizable covariate imbalances, both among measured and unmeasured covariates. Thanks to the law of large numbers, frail patients and hardy patients are allocated more or less evenly between the treatment and control group. Patients who are terrible about showing up at their monthly evaluations are allocated more or less evenly. Patients who brush their teeth obsessively three or four times a day are allocated more or less evenly.
+Randomization of individual patients is considered the gold standard of research. Better than almost any other approach, randomization reduces the likelihood of sizable covariate imbalances, both among measured and unmeasured covariates. Thanks to the law of large numbers, frail patients and hardy patients are allocated more or less evenly between the treatment and control group. Patients who are terrible about showing up at their monthly evaluations are allocated more or less evenly. Patients who brush their teeth obsessively three or four times a day are allocated more or less evenly.
 
-Randomization does not have to be at the individual patient level. You might use cluster randomization where you select a large number of dental practices and randomly assign half of the locations to try a new intervention on all of their patients. All of the patients at the other clinic serve as controls. Cluster randomization requires special care during data analysis and often require matching or other controls. Nevertheless, cluster randomized trials have all the same benefits of individual randomization.
+Randomization does not have to be at the individual patient level. You might use cluster randomization where you select a large number of dental practices and randomly assign half of the locations to try a new intervention on all of their patients. All of the patients at the other locations serve as controls. Cluster randomization requires special care during data analysis. If the number of clusters is small, you can't lean as heavily on the law of large numbers. You may need to apply matching or other controls to the clusters. Nevertheless, cluster randomized trials have all the same benefits of individual randomization.
 
 There are times, however, when you should reject individual or cluster randomization in favor of some non-randomized alternatives. The sad truth is that randomization is not all it's cracked up to be.
 
@@ -41,7 +41,7 @@ This paper will focus on something in between a randomized study and an observat
 
 The simplest way you can avoid randomization is to give everyone who comes to you the new treatment and rummage around in some database for historical records from patients without the new treatment. This is often called a historical control design.
 
-Most researchers sneer at historical control designs. A common recommendation is that they should be excluded from systematic overviews^2^. The International Conference on Harmonization considers the use of historical controls "usuable only in unusual circumstances".^3^ Historical controls have indeed been behind some absolute research disasters.Paul Robsenbaum in his book on observational studies^4^ leads off with a critique of a historical control study of Vitamin C in the treatment of cancer^5^ that grossly overstated the benefits of this therapy.
+Most researchers sneer at historical control designs. A common recommendation is that they should be excluded from systematic overviews^2^. The International Conference on Harmonization considers the use of historical controls "usuable only in unusual circumstances".^3^ Historical controls have indeed been behind some absolute research disasters. Paul Robsenbaum in his book on observational studies^4^ leads off with a critique of a historical control study of Vitamin C in the treatment of cancer^5^ that grossly overstated the benefits of this therapy.
 
 Nevertheless, you will still see historical control designs in the literature. One study^6^ compared the treatment with low-level laser therapy of 21 patients with Oral Mucositis from December 2022 to September 2023 to 96 control patients recruited from another study^7^ conducted from August 2009 to December 2019. 
 
@@ -208,8 +208,7 @@ text(1:3, y2, "W", col="red")
 axis(side=1, at=x, labels=paste0("O", x))
 ```
 
-=======
-Figure 4. 
+Figure 4. Hypothetical data in a waiting list control design
 
 A study of dental care practices used an Internet driven educational intervention to encourage providers to ask about tobacco use and to advise any smokers so identified to stop smoking^14^. The researchers identified 190 practices for the study and all of them were evaluated on asking and advising at baseline using patient exit cards. Patients received a card at the end of their visit and asked to fill out the cards at home and return them to the research team. Then half of the clinics were randomly assigned to receive the intervention immediately and half were assigned to receive the intervention at the end of the eight month study. While the intervention had no impact on asking about smoking, it did result in a greater degree of advising among the smokers identified. The intervention clinics improved substantially advising 55% of the time at eight months compared to 44% at baseline. The control group the advising rates were 45% at eight months, only a slight increase over the baseline rate of 42%. This disparity, as measured by a test of statistical interaction, was statistically significant. The authors concluded that an "Internet-delivered intervention designed to promote and support tobacco control in dental practices can be effective."
 
@@ -254,7 +253,7 @@ text(x, y3+4, "3", col="green")
 
 Figure 5. Hypothetical outcome of a stepped wedge design
 
-A study at a large teaching hospital examined the effectiveness of a new care protocol that encouraged nurses to provide better oral health care to patients in their wards^15^. The intervention was a seven step Implementation of Change Model for provision of good oral health care. The researchers divided the wards into four groups that were provided this intervention at separate times. They measured adherence to the protocol using a nine item questionnaire given to patients at five observation times bracketing each intervention. The research team also assessed the nurses' knowledge and attitude towards oral care, but only at the beginning and very end of the study. Knowledge did show a small but statistically significant increase from an average of 69 points (out of 100) to 72 points. Attitudes remained unchanged, and adherence actually declined from 60% at the start of the study to 35% at the end. The researchers did not have a good suggestion for this decline and suggested an evaluation of barriers and facilitators was needed.
+A study at a large teaching hospital examined the effectiveness of a new care protocol that encouraged nurses to provide better oral health care to patients in their wards^15^. The intervention was a seven step Implementation of Change Model for provision of good oral health care. The researchers divided the wards into four groups that were provided this intervention at separate times. They measured adherence to the protocol using a nine item questionnaire given to patients at five observation times bracketing each intervention. The research team also assessed the nurses' knowledge and attitude towards oral care, but only at the beginning and very end of the study. Knowledge did show a small but statistically significant increase from an average of 69 points (out of 100) to 72 points. Attitudes remained unchanged, and adherence actually declined from 60% at the start of the study to 35% at the end. The researchers did not have a good explanation for this decline and suggested that an evaluation of barriers and facilitators was needed.
 
 There are parallels and differences between the stepped wedge design and the interrupted time series design with multiple phases^16^. The former divides patients into random groups and allocates them at different times. The latter divides the intervention into phases and allocates the phases at different times.
 
@@ -270,19 +269,11 @@ The secret to a regression discontinuity design is that you compare patients jus
 
 There is a good intuition to this. It makes no sense to compare the very sickest patients with only mildly ill patients, the very rich patients with the desperately poor patients, or the A+ students to the students who flunked. Any difference that you see at the extremes will be strongly influenced by the qualifying measure. But the influence of the qualifying measure is less strong when you restrict yourself to a narrow window on either side of your cut-off.
 
-Figures 6 through 8 shows a hypothetical setting for a regression discontinuity design. A qualifying variable shows a relationship to the outcome (Figure 6). Patients scoring below a threshold are assigned to the treatment (Figure 7). In this hypothetical dataset, the treatment lifts all patients by a small amount. Then only patients near the threshold are selected for the regression discontinuity study (Figure 8).
+Figure 6 illustrates a hypothetical setting for a regression discontinuity design. The left side shows a qualifying variable with a strong relationship to the outcome. The middle shows patients scoring below a threshold assigned to the treatment. In this hypothetical dataset, the treatment lifts all patients by a small amount. Then the right side shows the selection of only patients near the threshold.
 
-![](images/regression-discontinuity-01.png)
+![](images/regression-discontinuity.png)
 
 Figure 6. Hypothetical data showing a relationship between a qualifying variable and a health outcome. 
-
-![](images/regression-discontinuity-02.png)
-
-Figure 7. Allocation of patients to the intervention based on the qualifying variable.
-
-![](images/regression-discontinuity-03.png)
-
-Figure 8. Removal of patients at the extremes.
 
 A regression discontinuity design was used to examine the extent to which Medicaid dental coverage reduced difficulty in accessing dental care^17^. The researchers selected patients that were 75 percentage points on either side of the state-specific Medicaid income eligibility threshold. The proportion of patients reporting difficulty accessing dental care was 5% higher in those patients with too much income to qualify for Medicaid coverage.
 
@@ -331,6 +322,7 @@ Don't eliminate randomization, of course, as a method in your research toolbox. 
 3. International Conference on Harmonization. ICH topic E10—Choice of control group in clinical trials. Note for guidance on choice of control group in clinical trials. (CPMP/ICH/364/96). London, UK: European Agency for the Evaluation of Medicinal Products; July 27, 2000.
 
 4. Rosenbaum P. Observational Studies, 2nd ed. Springer-Verlag; 2002. 
+
 5. Cameron E, Pauling L. Supplemental ascorbate in the supportive treatment of cancer: Prolongation of survival times in terminal human cancer. *Proc Natl Acad Sci USA*. 1976 Oct;73(10):3685-9. doi: 10.1073/pnas.73.10.3685.
 
 6. Nishi H, Horikoshi S, Yoshida T, Fukushima N, Oshita K, Munenaga S, Edahiro T, Ureshino H, Shigeishi H, Yoshioka Y, Konishi M, Ide N, Ogawa Y, Marukawa R, Shintani T, Ino N, Kajiya M, Kakimoto N, Ohge H, Ichinohe T, and Kawaguchi H. Efficacy of Low-Level Laser Therapy for Oral Mucositis in Hematologic Patients Undergoing Transplantation: A Single-Arm Prospective Study. *J Pers Med*. 2023 Nov; 13(11): 1603. doi: 10.3390/jpm13111603.

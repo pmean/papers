@@ -1,15 +1,11 @@
 ---
 title: "Decision letter"
-format: html
+format: 
+  docx:
+    embed-resources: true
 ---
-Skip to Main Content
-Wiley Authors
-Decision letter (Initial Submission)
-Revision of manuscript JOR-24-0491
-From:	JOORedoffice@wiley.com
-To:	simons@umkc.edu
-CC:	peterpainsvensson@gmail.com, simons@umkc.edu
-22-Oct-2024
+
+**Note: I have agreed with all but one of the reviewer comments. This is, however, a major disagreement as you will see below. All other comments were quite helpful and appropriate revisions and additions have been made.**
 
 Dear Stephen D. Simon,
 
@@ -18,14 +14,19 @@ Your manuscript entitled: "Experimentation without randomized controls" has been
 Overall, the referees find your manuscript interesting, but have noted several points that require major revision before a final decision can be made.
 
 The referees have made the following comments on your manuscript:
+
 Referee: 1
 
 Comments to the Author
+
 I enjoyed reading this manuscript. My only suggestion is that matching on extraneous factors as well as matching on propensity scores should also be discussed as options when randomization is not possible.
+
+**Done**
 
 Referee: 2
 
 Comments to the Author
+
 Thank you very much for submitting this review article on the use of quasi-experimental designs and their applications to dental research.
 
 The paper was written well and clearly. The choice of a rather informal and conversational tone is interesting. Some examples of phrasing include:
@@ -36,37 +37,68 @@ The paper was written well and clearly. The choice of a rather informal and conv
 
 * "You are used to giving advice about oral health in an assured voice"
 
-This can be helpful for creating an approachable story. However, it might also make assumptions about the readers or be offputting to some of them. With that said, Section 2's approach to describing each method of research design and then including a case example was outstanding in its presentation.
+This can be helpful for creating an approachable story. However, it might also make assumptions about the readers or be offputting to some of them.
+
+**I cannot make these revisions. It is indeed the only way I can write. The informal and conversational tone is baked into every nook and cranny of this paper. To remove it would take forever and it would suck all the life out of the writing. The reviewer, for example, dislikes the use of the pronoun "you" in the third suggestion. There are over a hundred sentences in the manuscript that include this pronoun. I talk directly to the reader and this is what gives the paper life. I do not wish to replace "you" with "one" and I do not wish to convert all my sentences to passive voice. I also disagree with the reviewer's suggestion that I take a humorous quip about dead bodies out of the paper. While I recognize the humor can be misunderstood by some, the careful use of it is vital when talking about a rather dry and technical topic.**
+
+**I do have an anecdote that I would like to share with you. You may find it amusing or you may find it horrifying. But I promise to not put in anything so risky into this particular paper. Back about 20 years ago, I was asked to write a paper similar to this one on randomization. You can't talk about randomization without talking about blinding. So I included a quip that sometimes blinding is impossible. I said something along the lines that you can't blind a study if one of the treatment arms is a bilateral orchiectomy because sooner or later the patient notices that something is missing. I did check with the editor about that and he said that it wasn't a problem.**
+
+**Now, if your journal wants to maintain a reserved and dignified tone, that is something I can respect. I could tone things down a little bit, but only a little. Just let me know.**
+
+With that said, Section 2's approach to describing each method of research design and then including a case example was outstanding in its presentation.
 
 Likewise, some of the assertions presented here might benefit from citations, such as: "Most researchers sneer at historical control designs."
+
+**Done.**
 
 Some other messages could be a bit more careful:
 
 * "Randomization prevents covariate imbalance, both among measured and unmeasured covariates." Probabilistically, this is true, but in practice, we get one outcome of a random process. Randomization reduces the likelihood of sizable imbalances and often performs better than other techniques for constructing treatment groups.
 
+**Done**
+
 * "When you randomize, you lose this level of assurance and admit that you are leaving their treatment choice up to the flip of a coin." This is true of all research. If we knew the answer, we would not have to perform a study. It is fair to say that this might impact a doctor's manner of describing the treatment plan, but it should not impact the validity of conducting the research itself.
+
+**Done**
 
 One of the drawbacks of individual randomization involves the potential for influence and crossover among subjects. It is difficult to randomly assign different textbooks to students in the same class because they study together and might pick up the second textbook if there's a benefit. It may be worthwhile to include this in some way.
 
+**Done**
+
 The study of poor compliance with clear aligner therapy involves a shift in treatments from late 2019 to the second half of 2020 (with the onset of the COVID-19 pandemic in between). It might be worthwhile to point out this issue in interpreting the results.
+
+**Done**
 
 Figure 2 could create a sharper contrast between the scenarios of good and bad news. While I get the point (that sharper increases convey more evidence in favor of the new treatment), the jumps are small. Zooming out, and considering the possibility of some noise, it seems like both the good and bad news scenarios go to the same place, with only small variations between them.
 
+**Done**
+
 The author guidelines (https://onlinelibrary.wiley.com/page/journal/13652842/homepage/forauthors.html) limits the article to no more than 6 figures. This paper has 8. So you may have to remove 2 or find a way to consolidate them (e.g. Figures 6-8 into a single figure).
+
+**Done**
 
 Some typos:
 
 Page 4, line 10: Figure 1 shows "to" possible "outcomes". Switch to "two" and "results".
 
+**Done**
+
 Page 6, line 41: "The masks gave the a fair degree of anonymity". Substitute "the a" with "a".
+
+**Done**
 
 Page 9, lines 14-15: "where a qualifying variable is used to decide controls who gets the intervention." Perhaps you meant to say, "in which a qualifying variable is used by the researchers to decide who gets the intervention."
 
+**Done**
+
 Page 11, line 30: "the the"
+
+**Done**
 
 All correspondence regarding this manuscript is visible from the submission site. You can view the status of your manuscript at any time by logging into the submission site at submission.wiley.com/journal/joor.
 
 You are encouraged to consider the complete series of comments provided by the referees as constructive suggestions for the overall improvement of the study.
+
 You are welcome to rebut these views if you believe them to be in error, but to do so will require significant and substantial information to allow me to reject the referees' comments.
 
 If you are willing to undertake the modifications and clarifications requested, please do so at your earliest convenience.
@@ -76,20 +108,27 @@ Log into submission.wiley.com/journal/joor and click on My Submissions. Sort by 
 If the above link space is blank, it is because you submitted your original manuscript through our old submission site. Therefore, to return your revision, please go to our new submission site here (submission.wiley.com/journal/joor) and submit your revision as a new manuscript; answer yes to the question “Are you returning a revision for a manuscript originally submitted to our former submission site (ScholarOne Manuscripts)? If you indicate yes, please enter your original manuscript’s Manuscript ID number in the space below” and including your original submission's Manuscript ID number (JOR-24-0491) where indicated. This will help us to link your revision to your original submission.
 
 Please also ensure that your revision is complete: the main document should include a title page and all figure legends and tables should be included at the end, after the references. Figures should be uploaded as separate files.
+
 All supplementary and additional files will be carried over when you submit a revised manuscript. You may be required to provide additional files at the revision stage. If indicated to do so, please upload any additional required files as needed.Omission will prolong the publication process.
 
 Your revision should be accompanied by a point-to-point response letter to the referees' comments. When submitting your revised manuscript, you will be able to respond to the reviewer comments when asked to “Upload your Author Response.” If you fail to include the response letter, your revision will be unsubmitted and will not be sent for re-review until the response has been inserted. This will prolong the reviewing process unnecessarily.
+
 Please also highlight the changes you make in your revised manuscript in YELLOW. This will help the reviewer to check the revised version of your manuscript.
 
 If the journal does not receive your revised manuscript within 3 months of this notification, we will consider the manuscript as withdrawn.
 
-This journal offers a number of license options for published papers; information about this is available here: https://authorservices.wiley.com/author-resources/Journal-Authors/licensing/index.html. The submitting author has confirmed that all co-authors have the necessary rights to grant in the submission, including in light of each co-author’s funder policies. If any author’s funder has a policy that restricts which kinds of license they can sign, for example if the funder is a member of Coalition S, please make sure the submitting author is aware.
+This journal offers a number of license options for published papers; information about this is available here:
+
+https://authorservices.wiley.com/author-resources/Journal-Authors/licensing/index.html.
+
+The submitting author has confirmed that all co-authors have the necessary rights to grant in the submission, including in light of each co-author’s funder policies. If any author’s funder has a policy that restricts which kinds of license they can sign, for example if the funder is a member of Coalition S, please make sure the submitting author is aware.
 
 Thank you for submitting your work to the journal.
 
 Best wishes from JOR!
 
 Wiley Editing Services Available to All Authors
+
 Should you be interested, Wiley Editing Services offers expert help with manuscript, language, and format editing, along with other article preparation services. You can learn more about this service option at www.wileyauthors.com/eeo/preparation. You can also check out Wiley’s collection of free article preparation resources for general guidance about writing and preparing your manuscript at www.wileyauthors.com/eeo/prepresources.
 
 Dr. Alan Glaros
