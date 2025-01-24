@@ -11,7 +11,13 @@ Stephen D. Simon^1^
 
 ## Abstract
 
-The quasi-experimental design is an underutilized research methodology. It works well when the researcher has control over treatment assignment, but wishes to avoid the problems that randomization can impose. Careful selection of how the treatments are allocated can produce evidence that is just as persuasive as the classical randomized trial.
+**Background**: In an experimental study, researchers often have the ability to assign different treatments. This is often done with randomization. There are many settings, however, where it is not desirable to use randomization. It is unclear how to best design an experimental study without randomization while still providing persuasive evidence. 
+
+**Objectives**: The aim of this study is to outline several approaches, broadly classified as quasi-experimental studies, where researchers can use methodologically sound alternatives to randomization.
+
+**Results**: The interrupted time seres, phased inventions, withdrawal design, waiting list control group, stepped wedge design, and regression discontinuity all represent approaches where careful non-random allocation to treatment groups can produce his quality research findings.
+
+**Conclusion**: Quasi-experimental studies can produce rigorous research findings. The allocation to treatment groups and the times of evaluation need to be carefully designed. Proper use of these quasi-experimental approaches can enhance research options in settings where the research team has control of allocation but finds randomization to be problematic.
 
 ## 1 | INTRODUCTION
 
@@ -312,6 +318,22 @@ Interrupted time-series, phased interventions, withdrawal designs, waitling list
 In every one of these settings, though, avoid the temptation of the before-and-after design. If you can't randomize or prefer not to randomize, you have to work harder to produce persuasive evidence. Adding multiple evaluation times, breaking the intervention into phases or evaluating both the addition and withdrawal of an intervention are all changes that take a lot more time and energy. Even so, the investment is often worth the trouble.
 
 Don't eliminate randomization, of course, as a method in your research toolbox. A randomized controlled trial is great if it is easy to apply individually and if the individual patients (and their care providers) are willing to accept it. 
+
+## Acknowledgements
+
+The author is grateful to Dr. Alan Glaros for his support and encouragement throughout this process. The two referees provided excellent review comments which greatly enhanced this paper.
+
+## Conflicts of Interest
+
+The author declares no conflicts of interest.
+
+## Ethical Statement
+
+This study did not involve any interaction with human subjects and used only publicly available resources. As such, it did not qualify as human research and did not require evaluation by an Institutional Review Board.
+
+## Data Availability Statement
+
+The data used to produce the graphs in this article are all hypothetical and not taken from any actual research studies. These hypothetical data sets, nevertheless, are available upon request.
 
 ## Bibliography
 
