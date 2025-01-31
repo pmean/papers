@@ -95,43 +95,16 @@ Page 11, line 30: "the the"
 
 **Done**
 
-All correspondence regarding this manuscript is visible from the submission site. You can view the status of your manuscript at any time by logging into the submission site at submission.wiley.com/journal/joor.
+Additional comments from the editor in an email dated 2025-01-24.
 
-You are encouraged to consider the complete series of comments provided by the referees as constructive suggestions for the overall improvement of the study.
+1) Please provide Declaration statements like data availability, conflict of interest, Ethical Statement in the main document.
 
-You are welcome to rebut these views if you believe them to be in error, but to do so will require significant and substantial information to allow me to reject the referees' comments.
+**Done, done, and done**
 
-If you are willing to undertake the modifications and clarifications requested, please do so at your earliest convenience.
+2) Please provide Graphical Abstract that should be visible in the main document, and it should be contain Title of the manuscript, author list along with some captions.
 
-Log into submission.wiley.com/journal/joor and click on My Submissions. Sort by journal and submission status to locate this manuscript, then click the “Revise submission” button to submit your revision. To submit your revised manuscript: Log in by clicking on the link below https://wiley.atyponrex.com/submissionBoard/1/73040f38-e942-4111-9e18-a22d9e5d4d78/current.
+**Done**
 
-If the above link space is blank, it is because you submitted your original manuscript through our old submission site. Therefore, to return your revision, please go to our new submission site here (submission.wiley.com/journal/joor) and submit your revision as a new manuscript; answer yes to the question “Are you returning a revision for a manuscript originally submitted to our former submission site (ScholarOne Manuscripts)? If you indicate yes, please enter your original manuscript’s Manuscript ID number in the space below” and including your original submission's Manuscript ID number (JOR-24-0491) where indicated. This will help us to link your revision to your original submission.
+3) Please provide the abstract in structured form by adding subheadings like objective, method, result and conclusion along with key words.
 
-Please also ensure that your revision is complete: the main document should include a title page and all figure legends and tables should be included at the end, after the references. Figures should be uploaded as separate files.
-
-All supplementary and additional files will be carried over when you submit a revised manuscript. You may be required to provide additional files at the revision stage. If indicated to do so, please upload any additional required files as needed.Omission will prolong the publication process.
-
-Your revision should be accompanied by a point-to-point response letter to the referees' comments. When submitting your revised manuscript, you will be able to respond to the reviewer comments when asked to “Upload your Author Response.” If you fail to include the response letter, your revision will be unsubmitted and will not be sent for re-review until the response has been inserted. This will prolong the reviewing process unnecessarily.
-
-Please also highlight the changes you make in your revised manuscript in YELLOW. This will help the reviewer to check the revised version of your manuscript.
-
-If the journal does not receive your revised manuscript within 3 months of this notification, we will consider the manuscript as withdrawn.
-
-This journal offers a number of license options for published papers; information about this is available here:
-
-https://authorservices.wiley.com/author-resources/Journal-Authors/licensing/index.html.
-
-The submitting author has confirmed that all co-authors have the necessary rights to grant in the submission, including in light of each co-author’s funder policies. If any author’s funder has a policy that restricts which kinds of license they can sign, for example if the funder is a member of Coalition S, please make sure the submitting author is aware.
-
-Thank you for submitting your work to the journal.
-
-Best wishes from JOR!
-
-Wiley Editing Services Available to All Authors
-
-Should you be interested, Wiley Editing Services offers expert help with manuscript, language, and format editing, along with other article preparation services. You can learn more about this service option at www.wileyauthors.com/eeo/preparation. You can also check out Wiley’s collection of free article preparation resources for general guidance about writing and preparing your manuscript at www.wileyauthors.com/eeo/prepresources.
-
-Dr. Alan Glaros
-Editor in Chief
-Journal of Oral Rehabilitation
-http://mc.manuscriptcentral.com/jor
+**Done**

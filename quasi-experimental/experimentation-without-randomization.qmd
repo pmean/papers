@@ -5,6 +5,9 @@ format:
     embed-resources: true
 ---
 
+Graphical abstract
+
+![](images/graphical-abstract.png)
 Stephen D. Simon^1^
 
 ^1^Department of Biomedical and Health Informatics, School of Medicine, University of Missouri-Kansas City, Kansas City Missouri
@@ -15,9 +18,11 @@ Stephen D. Simon^1^
 
 **Objectives**: The aim of this study is to outline several approaches, broadly classified as quasi-experimental studies, where researchers can use methodologically sound alternatives to randomization.
 
-**Results**: The interrupted time seres, phased inventions, withdrawal design, waiting list control group, stepped wedge design, and regression discontinuity all represent approaches where careful non-random allocation to treatment groups can produce his quality research findings.
+**Results**: The interrupted time series, phased inventions, withdrawal design, waiting list control group, stepped wedge design, and regression discontinuity all represent approaches where careful non-random allocation to treatment groups can produce high quality research findings.
 
 **Conclusion**: Quasi-experimental studies can produce rigorous research findings. The allocation to treatment groups and the times of evaluation need to be carefully designed. Proper use of these quasi-experimental approaches can enhance research options in settings where the research team has control of allocation but finds randomization to be problematic.
+
+**Keywords**: Quasi-experimental studies, interrupted time series, withdrawal design, stepped wedge design.
 
 ## 1 | INTRODUCTION
 
