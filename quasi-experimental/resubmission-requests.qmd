@@ -1,0 +1,57 @@
+---
+title: "Resubmission requests from an email ib 2025-01-22"
+format: 
+  docx:
+    embed-resources: true
+---
+
+22-Jan-2025
+
+Dear Simon,
+
+I have checked your manuscript JOR-24-0491.R1, entitled "Experimentation without randomized controls"  which you submitted to the Journal of Oral Rehabilitation.  Unfortunately I have unsubmitted it and it has been returned to the submission site.
+
+The reason is:
+
+1) Please provide Declaration statements like data availability, conflict of interest, Ethical Statement in the main document.
+
+2) Please provide Graphical Abstract that should be visible in the main document, and it should be contain Title of the manuscript, author list along with some captions.
+
+3) Please provide the abstract in structured form by adding subheadings like objective, method, result and conclusion along with key words.
+
+
+We look forward to receiving your resubmitted manuscript. Please DO NOT submit as a new submission.
+
+Best wishes from JOR!
+
+Ms. Muskan Singhal
+Editorial Office
+Journal of Oral Rehabilitation
+
+https://onlinelibrary.wiley.com/journal/13652842
+
+
+From https://onlinelibrary.wiley.com/doi/10.1111/joor.13856
+
+ABSTRACT
+
+Background
+
+Objective
+
+Methods
+
+Results
+
+Conclusions
+
+From https://onlinelibrary.wiley.com/doi/10.1111/joor.12793
+
+Summary
+
+Aim
+
+Materials and Methods
+
+Conclusion
+
